@@ -6,9 +6,10 @@
  * - Si todo falla, usa valores por defecto
  */
 
-let supabaseUrl = '';
-let supabaseKey = '';
-let configReady = false;
+// IMPORTANTE: Declarar como variables globales (window) para que estén disponibles en todo el documento
+var supabaseUrl = '';
+var supabaseKey = '';
+var configReady = false;
 
 /**
  * Carga la configuración de Supabase desde /api/config (Vercel)
@@ -18,6 +19,9 @@ async function loadFromApi() {
         const response = await fetch('/api/config');
         if (response.ok) {
             const config = await response.json();
+            // Asignar a variables globales (window)
+            window.supabaseUrl = config.supabaseUrl;
+            window.supabaseKey = config.supabaseKey;
             supabaseUrl = config.supabaseUrl;
             supabaseKey = config.supabaseKey;
             console.log('✓ Configuración cargada desde /api/config (Vercel)');
@@ -42,7 +46,7 @@ async function loadFromPhp() {
                 console.log('⚠ config.php no disponible (html devuelto)');
                 return false;
             }
-            // El PHP devuelve JavaScript que define supabaseUrl y supabaseKey
+            // El PHP devuelve JavaScript que define supabaseUrl y supabaseKey globalmente
             eval(text);
             console.log('✓ Configuración cargada desde config.php (Apache)');
             return true;
@@ -70,16 +74,21 @@ async function loadConfig() {
         // Si todo falla, usar valores por defecto
         if (!loaded) {
             console.warn('⚠ Usando valores de configuración por defecto');
-            supabaseUrl = 'https://szqwuzyycuicmxfkyqbm.supabase.co/';
-            supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN6cXd1enl5Y3VpY214Zmt5cWJtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjYzMTQ2NjYsImV4cCI6MjA0MTg5MDY2Nn0.B7aQV38LH6oH_CQsqRhqfxOVXXwqCQsrZu9b8ajKoRA';
+            window.supabaseUrl = 'https://szqwuzyycuicmxfkyqbm.supabase.co/';
+            window.supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN6cXd1enl5Y3VpY214Zmt5cWJtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjYzMTQ2NjYsImV4cCI6MjA0MTg5MDY2Nn0.B7aQV38LH6oH_CQsqRhqfxOVXXwqCQsrZu9b8ajKoRA';
+            supabaseUrl = window.supabaseUrl;
+            supabaseKey = window.supabaseKey;
         }
         
+        window.configReady = true;
         configReady = true;
-        return { supabaseUrl, supabaseKey };
+        console.log('✓ Configuración de Supabase completada');
+        return { supabaseUrl: window.supabaseUrl, supabaseKey: window.supabaseKey };
     } catch (error) {
         console.error('Error crítico al cargar configuración:', error);
+        window.configReady = true;
         configReady = true;
-        return { supabaseUrl, supabaseKey };
+        return { supabaseUrl: window.supabaseUrl, supabaseKey: window.supabaseKey };
     }
 }
 
