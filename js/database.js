@@ -54,12 +54,14 @@ async function initDatabase() {
     if (typeof supabase !== 'undefined') {
         if (typeof supabaseUrl !== 'undefined' && typeof supabaseKey !== 'undefined') {
             supabaseClient = supabase.createClient(supabaseUrl, supabaseKey);
-            console.log('Base de datos inicializada correctamente');
+            //console.log('Base de datos inicializada correctamente');
         } else {
-            console.error('supabaseUrl y supabaseKey no están definidos');
+            //console.error('supabaseUrl y supabaseKey no están definidos');
+            console.log('No se ha podido conectar con la base de datos');
         }
     } else {
-        console.error('Supabase no está cargado');
+        //console.error('Supabase no está cargado');
+        console.log('No se ha podido conectar con la base de datos');
     }
 }
 

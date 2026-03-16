@@ -8,6 +8,27 @@
    - Manejo de datos globales
    ============================================================================ */
 
+/**
+ * Funciones para logging que solo muestran mensajes si el usuario es admin
+ */
+function debugLog(...args) {
+    if (window.appData?.user?.admin) {
+        console.log(...args);
+    }
+}
+
+function debugWarn(...args) {
+    if (window.appData?.user?.admin) {
+        console.warn(...args);
+    }
+}
+
+function debugError(...args) {
+    if (window.appData?.user?.admin) {
+        console.error(...args);
+    }
+}
+
 // ========== VARIABLES GLOBALES DE DATOS ==========
 
 /**
@@ -55,7 +76,7 @@ async function initApp() {
     try {
         appData.user = JSON.parse(userStr);
     } catch (error) {
-        console.error('Error al parsear datos de usuario:', error);
+        debugError('Error al parsear datos de usuario:', error);
         localStorage.removeItem('metrovisit-user');
         window.location.href = './login/index.html';
         return;
@@ -656,10 +677,10 @@ function setCountryFlag(code, onlyFlag=false) {
 
 // Esperar a que la configuración de Supabase esté lista, luego iniciar la aplicación
 document.addEventListener('DOMContentLoaded', async () => {
-    console.log('📡 Esperando a que la configuración de Supabase esté lista...');
+    debugLog('📡 Esperando a que la configuración de Supabase esté lista...');
     if (window.configPromise) {
         await window.configPromise;
     }
-    console.log('✅ Configuración lista, iniciando aplicación...');
+    debugLog('✅ Configuración lista, iniciando aplicación...');
     await initApp();
 });
