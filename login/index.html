@@ -7,13 +7,10 @@
     <link rel="stylesheet" href="login.css">
     <!-- Link a los iconos de Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- Script de Supabase - Reemplaza supabaseUrl y supabaseKey con tus datos -->
+    <!-- Script de Supabase -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script type="text/javascript">
-		const supabaseUrl = 'https://szqwuzyycuicmxfkyqbm.supabase.co/';
-		const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN6cXd1enl5Y3VpY214Zmt5cWJtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjYzMTQ2NjYsImV4cCI6MjA0MTg5MDY2Nn0.B7aQV38LH6oH_CQsqRhqfxOVXXwqCQsrZu9b8ajKoRA';
-		const supabasePublicClient = supabase.createClient(supabaseUrl,supabaseKey);
-	</script>
+    <!-- Cargar configuración de Supabase (funciona en Apache y Vercel) -->
+    <script src="../js/loadConfig.js"></script>
     <!-- Script para SHA1 hashing de contraseñas -->
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>-->
 </head>

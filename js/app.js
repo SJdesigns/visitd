@@ -40,8 +40,8 @@ let currentViewingSystem = null;
  * Verifica autenticación y carga datos
  */
 async function initApp() {
-    // Inicializar base de datos
-    initDatabase();
+    // Inicializar base de datos (esperar a que se cargue la configuración)
+    await initDatabase();
 
     // Verificar si el usuario está logeado
     const userStr = localStorage.getItem('metrovisit-user');

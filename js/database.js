@@ -6,28 +6,57 @@
    OBJETIVO: Centralizar toda la lógica de base de datos en un único lugar
    para que si en el futuro se cambia de proveedor de BD, solo haya que
    modificar este archivo.
-   
-   Variables globales que DEBEN definirse en el HTML:
-   - supabaseUrl: URL de tu proyecto Supabase
-   - supabaseKey: Clave pública (anon) de tu proyecto Supabase
+
+   Las variables de Supabase se cargan automáticamente desde loadConfig.js
    ============================================================================ */
 
 // Variable global para el cliente de Supabase
 let supabaseClient;
 
 /**
+ * Espera a que la configuración de Supabase esté lista
+ * Retorna una promesa que se resuelve cuando las variables están disponibles
+ */
+async function waitForConfig() {
+    return new Promise((resolve) => {
+        // Si supabaseUrl ya está definido, resolver inmediatamente
+        if (typeof supabaseUrl !== 'undefined' && typeof supabaseKey !== 'undefined') {
+            resolve();
+            return;
+        }
+        
+        // Si no, esperar a que se defina
+        const checkInterval = setInterval(() => {
+            if (typeof supabaseUrl !== 'undefined' && typeof supabaseKey !== 'undefined') {
+                clearInterval(checkInterval);
+                resolve();
+            }
+        }, 50); // Comprobar cada 50ms
+        
+        // Timeout de 5 segundos
+        setTimeout(() => {
+            clearInterval(checkInterval);
+            console.warn('Timeout esperando configuración de Supabase');
+            resolve();
+        }, 5000);
+    });
+}
+
+/**
  * Inicializa la conexión a Supabase
  * Debe llamarse después de que el script de Supabase esté cargado
- * 
- * NOTA: Las variables supabaseUrl y supabaseKey deben estar definidas en el HTML
+ * Ahora espera automáticamente a que la configuración esté disponible
  */
-function initDatabase() {
+async function initDatabase() {
+    // Esperar a que la configuración esté lista
+    await waitForConfig();
+    
     if (typeof supabase !== 'undefined') {
         if (typeof supabaseUrl !== 'undefined' && typeof supabaseKey !== 'undefined') {
             supabaseClient = supabase.createClient(supabaseUrl, supabaseKey);
-            //console.log('Base de datos inicializada correctamente');
+            console.log('Base de datos inicializada correctamente');
         } else {
-            console.error('supabaseUrl y supabaseKey no están definidos en el HTML');
+            console.error('supabaseUrl y supabaseKey no están definidos');
         }
     } else {
         console.error('Supabase no está cargado');
