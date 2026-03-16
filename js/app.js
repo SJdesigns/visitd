@@ -643,9 +643,9 @@ function setCountryFlag(code, onlyFlag=false) {
     var html = '';
 
     if (onlyFlag) {
-        html += '<img src="img/countryFlags/'+code.toLowerCase()+'.svg" />';
+        html += '<img src="img/countryFlags/'+code.toUpperCase()+'.svg" />';
     } else {
-        html += '<img src="img/countryFlags/'+code.toLowerCase()+'.svg" />';
+        html += '<img src="img/countryFlags/'+code.toUpperCase()+'.svg" />';
         html += '<p>'+countries[codeMayus].toLowerCase()+'</p>';
     }
 

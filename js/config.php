@@ -36,10 +36,7 @@ if (empty($supabaseKey)) {
     $supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN6cXd1enl5Y3VpY214Zmt5cWJtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjYzMTQ2NjYsImV4cCI6MjA0MTg5MDY2Nn0.B7aQV38LH6oH_CQsqRhqfxOVXXwqCQsrZu9b8ajKoRA';
 }
 
-// Generar JavaScript que define las variables globales
-?>
-
-// Variables de configuración de Supabase (inyectadas por PHP)
-const supabaseUrl = '<?php echo addslashes($supabaseUrl); ?>';
-const supabaseKey = '<?php echo addslashes($supabaseKey); ?>';
+// Generar JavaScript que define las variables globales en window
+window.supabaseUrl = '<?php echo addslashes($supabaseUrl); ?>';
+window.supabaseKey = '<?php echo addslashes($supabaseKey); ?>';
 

@@ -17,7 +17,7 @@ var configPromise = null;
  */
 async function loadFromApi() {
     try {
-        const response = await fetch('/api/config');
+        const response = await fetch('./api/config');
         if (response.ok) {
             const config = await response.json();
             console.log('✓ /api/config respondió correctamente');
@@ -49,9 +49,14 @@ async function loadFromPhp() {
                 return false;
             }
             console.log('✓ config.php respondió correctamente');
-            // El PHP devuelve JavaScript que define supabaseUrl y supabaseKey globalmente
+            // El PHP devuelve JavaScript que define window.supabaseUrl y window.supabaseKey globalmente
             eval(text);
+            // Copiar desde window a las variables locales también
+            supabaseUrl = window.supabaseUrl;
+            supabaseKey = window.supabaseKey;
             console.log('✓ Variables de Supabase asignadas desde config.php');
+            console.log('  - supabaseUrl:', !!window.supabaseUrl);
+            console.log('  - supabaseKey:', !!window.supabaseKey);
             return true;
         }
     } catch (error) {
@@ -63,11 +68,12 @@ async function loadFromPhp() {
 /**
  * Carga la configuración de Supabase
  * Intenta primero la API (Vercel), luego PHP (Apache)
+ * Retorna una promesa que se resuelve cuando está completada
  */
 async function loadConfig() {
     console.log('📡 Iniciando carga de configuración de Supabase...');
     try {
-        // Intentar primero desde /api/config (Vercel)
+        // Intentar primero desde /api/config (Vercel/Apache)
         let loaded = await loadFromApi();
         
         // Si falla, intentar desde config.php (Apache)
@@ -88,10 +94,17 @@ async function loadConfig() {
         window.configReady = true;
         configReady = true;
         console.log('✅ Configuración completada. supabaseUrl:', !!window.supabaseUrl, 'supabaseKey:', !!window.supabaseKey);
+        return true;
     } catch (error) {
         console.error('❌ Error al cargar configuración:', error);
+        // Usar valores por defecto en caso de error
+        window.supabaseUrl = 'https://szqwuzyycuicmxfkyqbm.supabase.co/';
+        window.supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN6cXd1enl5Y3VpY214Zmt5cWJtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjYzMTQ2NjYsImV4cCI6MjA0MTg5MDY2Nn0.B7aQV38LH6oH_CQsqRhqfxOVXXwqCQsrZu9b8ajKoRA';
+        supabaseUrl = window.supabaseUrl;
+        supabaseKey = window.supabaseKey;
         window.configReady = true;
         configReady = true;
+        return false;
     }
 }
 
@@ -122,14 +135,12 @@ function waitForConfigReady() {
 }
 
 // Crear promesa global que se resuelve cuando la configuración está lista
-window.configPromise = new Promise((resolve) => {
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', async () => {
-            await loadConfig();
-            resolve();
-        });
-    } else {
-        loadConfig().then(resolve);
-    }
+// Esta promesa se inicia INMEDIATAMENTE cuando este script se carga
+console.log('🔧 Configurando promesa global de Supabase...');
+window.configPromise = loadConfig();
+window.configPromise.then(() => {
+    console.log('✅ Configuración lista para usar');
+}).catch((error) => {
+    console.error('❌ Error en la promesa global:', error);
 });
 
