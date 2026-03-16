@@ -1,4 +1,18 @@
 /**
+ * Calcula las rutas correctas según dónde se esté ejecutando este script
+ * Si está en /login/, ajusta las rutas con ../
+ */
+function getConfigPaths() {
+    const isInLoginFolder = window.location.pathname.includes('/login/');
+    const prefix = isInLoginFolder ? '../' : './';
+    
+    return {
+        apiConfigPath: prefix + 'api/config',
+        phpConfigPath: prefix + 'js/config.php'
+    };
+}
+
+/**
  * Funciones para logging que solo muestran mensajes si el usuario es admin
  */
 function debugLog(...args) {
@@ -30,7 +44,8 @@ var configPromise = null;
  */
 async function loadFromApi() {
     try {
-        const response = await fetch('./api/config');
+        const paths = getConfigPaths();
+        const response = await fetch(paths.apiConfigPath);
         if (response.ok) {
             const config = await response.json();
             debugLog('✓ /api/config respondió correctamente');
@@ -53,7 +68,8 @@ async function loadFromApi() {
  */
 async function loadFromPhp() {
     try {
-        const response = await fetch('js/config.php');
+        const paths = getConfigPaths();
+        const response = await fetch(paths.phpConfigPath);
         if (response.ok) {
             const text = await response.text();
             // Verificar que no es un error HTML de Vercel

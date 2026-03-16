@@ -9,6 +9,28 @@
    - Redirección a página principal
    ============================================================================ */
 
+/**
+ * Funciones para logging que solo muestran mensajes si el usuario es admin
+ */
+function debugLog(...args) {
+    // En login no tenemos appData aún, pero mantenemos la consistencia
+    if (localStorage.getItem('debug-mode')) {
+        console.log(...args);
+    }
+}
+
+function debugWarn(...args) {
+    if (localStorage.getItem('debug-mode')) {
+        console.warn(...args);
+    }
+}
+
+function debugError(...args) {
+    if (localStorage.getItem('debug-mode')) {
+        console.error(...args);
+    }
+}
+
 // ============ VARIABLE GLOBAL SUPABASE ============
 // La conexión a Supabase se establecerá en el HTML con la URL y la clave
 let supabaseClient;
@@ -16,16 +38,27 @@ let supabaseClient;
 /**
  * Inicializa la conexión a Supabase
  * Debe ser llamado después de que el script de Supabase esté cargado
+ * y DESPUÉS de que loadConfig haya cargado las credenciales
  */
-function initSupabase() {
+async function initSupabase() {
+    // Esperar a que la configuración de Supabase esté lista
+    if (window.configPromise) {
+        await window.configPromise;
+    }
+    
     // Esperar a que Supabase esté disponible
     if (typeof supabase !== 'undefined') {
-        // Los valores supabaseUrl y supabaseKey deben estar definidos en el HTML
+        // Los valores supabaseUrl y supabaseKey deben estar definidos globalmente
         if (typeof supabaseUrl !== 'undefined' && typeof supabaseKey !== 'undefined') {
             supabaseClient = supabase.createClient(supabaseUrl, supabaseKey);
+            debugLog('✅ Cliente de Supabase inicializado correctamente en login');
         } else {
-            console.warn('supabaseUrl y supabaseKey no están definidos');
+            debugError('❌ supabaseUrl y supabaseKey no están definidos');
+            console.error('supabaseUrl y supabaseKey no están definidos');
         }
+    } else {
+        debugError('❌ Supabase no está cargado');
+        console.error('Supabase no está cargado');
     }
 }
 
@@ -103,10 +136,10 @@ function validateLoginForm() {
 
 // tanto la función sha1 mia como la de CryptoJS hacen lo mismo, pero prefiero utilizar la mia y no tener que hacer llamadas externas.
 function encryptPasswordSHA1(password) {
-    console.log(password);
+    debugLog(password);
     //var encrypted = CryptoJS.SHA1(password).toString();
     var encrypted = sha1(password);
-    console.log(encrypted);
+    debugLog(encrypted);
     return encrypted;
 }
 
@@ -146,13 +179,13 @@ async function authenticateUser(username, encryptedPassword) {
             throw new Error(`Error al consultar base de datos: ${fetchError.message}`);
         }
 
-        console.log(users);
+        debugLog(users);
 
         // Verificar que se encontró el usuario
         if (!users || users.length === 0) {
             setLoading(false);
             document.getElementById('loginError').textContent = 'Usuario o contraseña incorrectos';
-            console.log('No se ha encontrado al usuario');
+            debugLog('No se ha encontrado al usuario');
             return;
         }
 
@@ -162,7 +195,7 @@ async function authenticateUser(username, encryptedPassword) {
         if (user.password !== encryptedPassword) {
             setLoading(false);
             document.getElementById('loginError').textContent = 'Usuario o contraseña incorrectos';
-            console.log('la contraseña no coincide con la del usuario');
+            debugLog('la contraseña no coincide con la del usuario');
             return;
         }
 
@@ -170,7 +203,7 @@ async function authenticateUser(username, encryptedPassword) {
         if (!user.active) {
             setLoading(false);
             document.getElementById('loginError').textContent = 'Este usuario ha sido desactivado';
-            console.log('el usuario no se encuentra activo');
+            debugLog('el usuario no se encuentra activo');
             return;
         }
 
@@ -179,7 +212,7 @@ async function authenticateUser(username, encryptedPassword) {
         localStorage.setItem('metrovisit-user', JSON.stringify(user));
 
         // Redirigir a la página principal
-        console.log('identificación del usuario satisfactoria');
+        debugLog('identificación del usuario satisfactoria');
         window.location.href = '../index.html';
 
     } catch (error) {
@@ -215,9 +248,11 @@ async function handleLoginSubmit(event) {
  * Inicializa la página de login
  * Ejecutado cuando el DOM está completamente cargado
  */
-function initLoginPage() {
-    // Inicializar Supabase
-    initSupabase();
+async function initLoginPage() {
+    debugLog('📡 Inicializando página de login...');
+    
+    // Inicializar Supabase (esperar a que esté configurado)
+    await initSupabase();
 
     // Obtener referencia del formulario
     const loginForm = document.getElementById('loginForm');
@@ -380,4 +415,6 @@ function sha1 (str) {
 }
 
 // Ejecutar cuando el DOM esté listo
-document.addEventListener('DOMContentLoaded', initLoginPage);
+document.addEventListener('DOMContentLoaded', async () => {
+    await initLoginPage();
+});
