@@ -10,6 +10,7 @@
 var supabaseUrl = '';
 var supabaseKey = '';
 var configReady = false;
+var configPromise = null;
 
 /**
  * Carga la configuración de Supabase desde /api/config (Vercel)
@@ -19,16 +20,17 @@ async function loadFromApi() {
         const response = await fetch('/api/config');
         if (response.ok) {
             const config = await response.json();
+            console.log('✓ /api/config respondió correctamente');
             // Asignar a variables globales (window)
             window.supabaseUrl = config.supabaseUrl;
             window.supabaseKey = config.supabaseKey;
             supabaseUrl = config.supabaseUrl;
             supabaseKey = config.supabaseKey;
-            console.log('✓ Configuración cargada desde /api/config (Vercel)');
+            console.log('✓ Variables de Supabase asignadas desde /api/config');
             return true;
         }
     } catch (error) {
-        // No es error crítico, intentaremos PHP después
+        console.log('⚠ /api/config no disponible:', error.message);
     }
     return false;
 }
@@ -46,13 +48,14 @@ async function loadFromPhp() {
                 console.log('⚠ config.php no disponible (html devuelto)');
                 return false;
             }
+            console.log('✓ config.php respondió correctamente');
             // El PHP devuelve JavaScript que define supabaseUrl y supabaseKey globalmente
             eval(text);
-            console.log('✓ Configuración cargada desde config.php (Apache)');
+            console.log('✓ Variables de Supabase asignadas desde config.php');
             return true;
         }
     } catch (error) {
-        console.log('⚠ No se pudo cargar config.php:', error.message);
+        console.log('⚠ config.php no disponible:', error.message);
     }
     return false;
 }
@@ -62,12 +65,14 @@ async function loadFromPhp() {
  * Intenta primero la API (Vercel), luego PHP (Apache)
  */
 async function loadConfig() {
+    console.log('📡 Iniciando carga de configuración de Supabase...');
     try {
         // Intentar primero desde /api/config (Vercel)
         let loaded = await loadFromApi();
         
         // Si falla, intentar desde config.php (Apache)
         if (!loaded) {
+            console.log('📡 Intentando config.php...');
             loaded = await loadFromPhp();
         }
         
@@ -82,20 +87,49 @@ async function loadConfig() {
         
         window.configReady = true;
         configReady = true;
-        console.log('✓ Configuración de Supabase completada');
-        return { supabaseUrl: window.supabaseUrl, supabaseKey: window.supabaseKey };
+        console.log('✅ Configuración completada. supabaseUrl:', !!window.supabaseUrl, 'supabaseKey:', !!window.supabaseKey);
     } catch (error) {
-        console.error('Error crítico al cargar configuración:', error);
+        console.error('❌ Error al cargar configuración:', error);
         window.configReady = true;
         configReady = true;
-        return { supabaseUrl: window.supabaseUrl, supabaseKey: window.supabaseKey };
     }
 }
 
-// Iniciar la carga cuando el documento esté listo
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', loadConfig);
-} else {
-    // Si el document ya está cargado, ejecutar inmediatamente
-    loadConfig();
+/**
+ * Espera a que la configuración esté lista
+ */
+function waitForConfigReady() {
+    return new Promise((resolve) => {
+        if (window.configReady) {
+            resolve();
+            return;
+        }
+        
+        const checkInterval = setInterval(() => {
+            if (window.configReady) {
+                clearInterval(checkInterval);
+                resolve();
+            }
+        }, 50);
+        
+        // Timeout de 5 segundos
+        setTimeout(() => {
+            clearInterval(checkInterval);
+            console.warn('⚠ Timeout esperando configuración');
+            resolve();
+        }, 5000);
+    });
 }
+
+// Crear promesa global que se resuelve cuando la configuración está lista
+window.configPromise = new Promise((resolve) => {
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', async () => {
+            await loadConfig();
+            resolve();
+        });
+    } else {
+        loadConfig().then(resolve);
+    }
+});
+

@@ -654,4 +654,12 @@ function setCountryFlag(code, onlyFlag=false) {
 
 // ========== INICIALIZACIÓN DEL DOM ==========
 
-document.addEventListener('DOMContentLoaded', initApp);
+// Esperar a que la configuración de Supabase esté lista, luego iniciar la aplicación
+document.addEventListener('DOMContentLoaded', async () => {
+    console.log('📡 Esperando a que la configuración de Supabase esté lista...');
+    if (window.configPromise) {
+        await window.configPromise;
+    }
+    console.log('✅ Configuración lista, iniciando aplicación...');
+    await initApp();
+});
