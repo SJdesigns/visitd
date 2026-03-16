@@ -1,0 +1,522 @@
+<svg width="530.65" height="750" viewBox="0 0 2371.04 3351.15" preserveAspectRatio="xMidYMid meet" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+
+  <style>
+    .stationCircle + path {
+      fill: #000000 !important;
+      stroke: #000000 !important;
+      stroke-width: 1px;
+    }
+  </style>
+
+	<g id="Lineas_vlc" data-name="Lineas vlc">
+		<g id="Linea10">
+			<line x1="1307.14" y1="2072.14" x2="1454.14" y2="2072.14" style="fill:none;stroke:#b6dd79;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1492.14" y1="2085.14" x2="1653.14" y2="2246.14" style="fill:none;stroke:#b6dd79;stroke-miterlimit:10;stroke-width:14px"/><path d="M1729,2143c15,0,27.39,2.39,38,13" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b6dd79;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1706.14" y1="2249.14" x2="1788.14" y2="2167.14" style="fill:none;stroke:#b6dd79;stroke-miterlimit:10;stroke-width:14px"/><path d="M1981,2320c-17,17-39,11-53-3" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b6dd79;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1823.14" y1="2155.14" x2="2298.14" y2="2155.14" style="fill:none;stroke:#b6dd79;stroke-miterlimit:10;stroke-width:14px"/><path d="M2063,2238c7.81-7.81,23-12,35-12" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b6dd79;stroke-miterlimit:10;stroke-width:14px"/>
+		</g>
+		<g id="Linea9">
+			<line x1="149.64" y1="1252.64" x2="149.64" y2="1496.64" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/><line x1="169.14" y1="1535.14" x2="558.64" y2="1924.64" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/><path d="M424,1567c0,20,9.39,28.39,20,39" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="598.14" y1="1941.14" x2="1033.14" y2="1941.14" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/><path d="M834,1995c16.43,15.56,23,17,39,17" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1068.14" y1="1930.14" x2="1105.14" y2="1893.14" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/><line x1="1137.14" y1="1879.14" x2="1182.14" y2="1879.14" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/><path d="M1308,2012c17,0,27.22-3.22,35-11" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1220.14" y1="1894.14" x2="1256.64" y2="1930.64" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/><path d="M1380,1964c9.19-9.19,23.27-14,32-14" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/><path d="M1457,1950c15,0,30.78,7.78,38,15" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1278.14" y1="1941.14" x2="1341.14" y2="1941.14" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/><path d="M1532,2001c7.35,6.86,15.07,11,21,11" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1364.14" y1="1930.14" x2="1535.14" y2="1759.14" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/><path d="M1616,2012c8,0,18.49-6.49,23-11" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1550.14" y1="1732.14" x2="1550.14" y2="1637.14" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/><path d="M1825,1803c0,11-7.22,19.22-15,27" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1516.14" y1="1589.14" x2="1538.14" y2="1611.14" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/><path d="M1825,1708c0-11-4.93-18.93-12-26" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1504.14" y1="1272.14" x2="1504.14" y2="1555.14" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/><path d="M1791,1660c-6.37-6.37-12-22-12-34" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1523.14" y1="1226.14" x2="1646.14" y2="1103.14" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/><path d="M1779,1343c0-18,10.2-37.2,19-46" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1662.14" y1="1015.14" x2="1662.14" y2="1075.14" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/><path d="M1937,1146c0,14-10.3,22.3-16,28" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#a47e52;stroke-miterlimit:10;stroke-width:14px"/>
+		</g>
+		<g id="Linea8">
+			<line x1="2013.14" y1="1829.14" x2="2299.14" y2="1829.14" style="fill:none;stroke:#96c4da;stroke-miterlimit:10;stroke-width:14px"/></g><g id="Linea7"><line x1="1053.14" y1="2585.14" x2="1117.14" y2="2585.14" style="fill:none;stroke:#ce7d28;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1163.14" y1="2538.14" x2="1163.14" y2="2175.14" style="fill:none;stroke:#ce7d28;stroke-miterlimit:10;stroke-width:14px"/><path d="M1392,2656c25,0,46-29,46-47" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#ce7d28;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1307.14" y1="2019.14" x2="1182.64" y2="2143.64" style="fill:none;stroke:#ce7d28;stroke-miterlimit:10;stroke-width:14px"/><path d="M1438,2246c0-12,12.19-24.19,20-32" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#ce7d28;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1336.14" y1="2004.14" x2="1357.14" y2="2004.14" style="fill:none;stroke:#ce7d28;stroke-miterlimit:10;stroke-width:14px"/><path d="M1582,2090c7.78-7.78,20.84-15,29-15" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#ce7d28;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1400.14" y1="1982.14" x2="1591.14" y2="1791.14" style="fill:none;stroke:#ce7d28;stroke-miterlimit:10;stroke-width:14px"/><path d="M1632,2075c10,0,35.48-14.48,43-22" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#ce7d28;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1619.14" y1="1780.14" x2="1859.14" y2="1780.14" style="fill:none;stroke:#ce7d28;stroke-miterlimit:10;stroke-width:14px"/><path d="M1866,1862c7.07-7.07,18-11,28-11" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#ce7d28;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1883.14" y1="1788.14" x2="1910.14" y2="1815.14" style="fill:none;stroke:#ce7d28;stroke-miterlimit:10;stroke-width:14px"/><line x1="1939.14" y1="1828.14" x2="1960.14" y2="1828.14" style="fill:none;stroke:#ce7d28;stroke-miterlimit:10;stroke-width:14px"/><path d="M2134,1851c8,0,18.34,2.34,24,8" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#ce7d28;stroke-miterlimit:10;stroke-width:14px"/><path d="M2185,1886c5.62,5.62,21.05,13,29,13" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#ce7d28;stroke-miterlimit:10;stroke-width:14px"/>
+		</g>
+		<g id="Linea6">
+			<line x1="1205.14" y1="1313.14" x2="1205.14" y2="1274.14" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/><line x1="1233.14" y1="1253.14" x2="1338.14" y2="1253.14" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/><path d="M1508,1324c-12,0-28,12.25-28,21" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1365.14" y1="1277.14" x2="1365.14" y2="1456.14" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/><path d="M1613,1324c12,0,27,13,27,24" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1420.14" y1="1503.14" x2="2166.14" y2="1503.14" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/><path d="M1640,1527c0,30,27,47,55,47" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="2219.14" y1="1544.14" x2="2219.14" y2="1735.14" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/><path d="M2441,1574c31,0,53,22,53,41" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="2013.14" y1="1808.14" x2="2192.14" y2="1808.14" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/><line x1="2302.14" y1="1540.14" x2="2302.14" y2="1671.14" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/><line x1="2166.14" y1="1503.14" x2="2255.14" y2="1503.14" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/><path d="M2577,1611c0-12-21-37-47-37" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="2247.14" y1="1713.14" x2="2265.14" y2="1713.14" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/><path d="M2577,1742c0,24-23,42-37,42" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/><path d="M2522,1784c-15,0-28,22-28,22" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="2219.14" y1="1735.14" x2="2219.14" y2="1785.14" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/><path d="M2467,1879c8.87,0,27-7,27-23" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#817fb3;stroke-miterlimit:10;stroke-width:14px"/>
+		</g>
+		<g id="Linea5">
+			<line x1="54.14" y1="1780.14" x2="336.14" y2="1780.14" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/><line x1="366.14" y1="1791.14" x2="536.14" y2="1961.14" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/><path d="M611,1851c17,0,21.94,2.94,30,11" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="579.14" y1="1982.14" x2="1047.14" y2="1982.14" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/><path d="M854,2053c-19,0-30.25-8.25-43-21" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1085.01" y1="1969.27" x2="1123.01" y2="1931.27" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1142.14" y1="1920.14" x2="1178.14" y2="1920.14" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/><path d="M1322,2053c13,0,30-5,38-13" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/><path d="M1417,1991c-7,0-15.12,7.12-19,11" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1194.14" y1="1926.14" x2="1236.14" y2="1968.14" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/><path d="M1453,1991c4.27,0,13,3,16,6" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1268.14" y1="1982.14" x2="1349.14" y2="1982.14" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/><path d="M1543,2053c-11,0-23-5-32-14" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1388.14" y1="1965.14" x2="1578.14" y2="1775.14" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/><path d="M1624,2053c10.64,0,31.48-9.48,39-17" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1611.14" y1="1759.14" x2="1868.14" y2="1759.14" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/><path d="M1886,1830" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/><path d="M1886,1830c-13,0-25.22,8.22-33,16" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1897.14" y1="1773.14" x2="1919.14" y2="1795.14" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1940.14" y1="1808.14" x2="1960.14" y2="1808.14" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/><path d="M2143,1830c11.05,0,20.51,5.51,29,14" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/><path d="M2215,1879c-6.17,0-13.93-5.93-21-13" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#4e886d;stroke-miterlimit:10;stroke-width:14px"/>
+		</g>
+		<g id="Linea4">
+			<line x1="1420.14" y1="1524.14" x2="2166.14" y2="1524.14" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1365.14" y1="1562.14" x2="1365.14" y2="1619.14" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1324.14" y1="1562.14" x2="1324.14" y2="1619.14" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/><path d="M1695,1595c-34,0-55,26-55,38" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/><path d="M1599,1690c0,25,41,25,41,0" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="856.14" y1="1524.14" x2="1277.14" y2="1524.14" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/><path d="M1599,1633c0-15.11-23-38-47-38" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="756.14" y1="1434.14" x2="835.14" y2="1513.14" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/><path d="M1131,1595c-8,0-14.64-4.64-21-11" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="746.14" y1="932.14" x2="746.14" y2="1391.14" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/><path d="M1031,1505c-7.8-7.8-10-21-10-43" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="609.14" y1="848.14" x2="721.14" y2="848.14" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/><line x1="780.14" y1="848.14" x2="882.14" y2="848.14" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/><path d="M1021,949c0-15-13-30-25-30" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/><path d="M1055,919c-20,0-34,15-34,30" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="911.14" y1="679.14" x2="911.14" y2="822.14" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/><path d="M1157,919c13,0,29-14,29-26" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="570.14" y1="977.14" x2="570.14" y2="938.14" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/><line x1="597.14" y1="917.14" x2="713.14" y2="917.14" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/><path d="M845,1009c0-7,14-21,27-21" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/><path d="M988,988c19,0,33,13,33,29" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="746.14" y1="878.14" x2="746.14" y2="932.14" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="2199.14" y1="1547.14" x2="2199.14" y2="1665.14" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="2282.14" y1="1549.14" x2="2282.14" y2="1665.14" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="2166.14" y1="1524.14" x2="2255.14" y2="1524.14" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/><path d="M2557,1620c0-11-16-25-27-25" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/><path d="M2441,1595c13,0,33,12.94,33,23" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="2223.14" y1="1692.14" x2="2259.14" y2="1692.14" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/><path d="M2557,1736c0,11-12,27-23,27" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/><path d="M2474,1736c0,11,13,27,24,27" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#2b498b;stroke-miterlimit:10;stroke-width:14px"/>
+		</g>
+		<g id="Linea3">
+			<line x1="54.14" y1="1759.14" x2="336.14" y2="1759.14" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="589.14" y1="1962.14" x2="1047.14" y2="1962.14" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="384.14" y1="1780.14" x2="547.14" y2="1943.14" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/><path d="M611,1830c29,0,38.74,11.74,48,21" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/><path d="M822,2014c14,14,30.48,19,42,19" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1078.14" y1="1949.14" x2="1119.14" y2="1908.14" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/><path d="M1322,2033c14,0,25.06-7.06,31-13" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1140.14" y1="1900.14" x2="1182.14" y2="1900.14" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/><path d="M1415,1971c-8,0-16,3-21,8" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1208.14" y1="1910.14" x2="1247.14" y2="1949.14" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/><path d="M1457,1971c10,0,21.08,5.08,26,10" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1273.14" y1="1962.14" x2="1348.14" y2="1962.14" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/><path d="M1522,2020c9.22,9.22,18.73,13,26,13" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1376.14" y1="1947.14" x2="1556.14" y2="1767.14" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/><path d="M1623,2033c9,0,22.38-9.38,28-15" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1571.14" y1="1630.14" x2="1571.14" y2="1738.14" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/><path d="M1831,1838c5.77-5.77,15-20.84,15-29" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1537.14" y1="1580.14" x2="1558.64" y2="1601.64" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/><path d="M1846,1701c0-13-5.93-21.93-13-29" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1525.14" y1="1272.14" x2="1525.14" y2="1552.14" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/><path d="M1812,1651c-9.19-9.19-12-15-12-28" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1542.14" y1="1236.14" x2="1668.14" y2="1110.14" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/><path d="M1800,1343c0-10,5.69-24.69,17-36" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1683.14" y1="1075.14" x2="1683.14" y2="639.14" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/><path d="M1943,1181c6.52-6.52,15-17,15-35" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b11d2f;stroke-miterlimit:10;stroke-width:14px"/>
+		</g>
+		<g id="Linea2">
+			<line x1="486.14" y1="212.14" x2="486.14" y2="1066.14" style="fill:none;stroke:#b4397f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="497.14" y1="1106.14" x2="629.14" y2="1238.14" style="fill:none;stroke:#b4397f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="684.14" y1="1268.14" x2="684.14" y2="1502.14" style="fill:none;stroke:#b4397f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="711.14" y1="1555.14" x2="1160.14" y2="2004.14" style="fill:none;stroke:#b4397f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1184.14" y1="2043.14" x2="1184.14" y2="2535.14" style="fill:none;stroke:#b4397f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1053.14" y1="2605.14" x2="1123.14" y2="2605.14" style="fill:none;stroke:#b4397f;stroke-miterlimit:10;stroke-width:14px"/><path d="M761,1137c0,18,3.67,32.67,11,40" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b4397f;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="654.14" y1="1253.14" x2="668.14" y2="1253.14" style="fill:none;stroke:#b4397f;stroke-miterlimit:10;stroke-width:14px"/><path d="M929,1324c-7.29,0-18-8-25-15" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b4397f;stroke-miterlimit:10;stroke-width:14px"/><path d="M959,1339c0-5.48-10-15-16-15" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b4397f;stroke-miterlimit:10;stroke-width:14px"/><path d="M959,1573c0,26,9.32,35.32,27,53" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b4397f;stroke-miterlimit:10;stroke-width:14px"/><path d="M1459,2114c0-16-15.9-30.9-24-39" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b4397f;stroke-miterlimit:10;stroke-width:14px"/><path d="M1398,2676c27,0,61-35,61-70" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#b4397f;stroke-miterlimit:10;stroke-width:14px"/>
+		</g>
+		<g id="Linea1">
+			<line x1="1205.14" y1="504.14" x2="1205.14" y2="1065.14" style="fill:none;stroke:#e4be36;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1192.14" y1="1108.14" x2="1065.14" y2="1235.14" style="fill:none;stroke:#e4be36;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1027.14" y1="1253.14" x2="727.14" y2="1253.14" style="fill:none;stroke:#e4be36;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="705.14" y1="1268.14" x2="705.14" y2="1502.14" style="fill:none;stroke:#e4be36;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="716.14" y1="1529.14" x2="1178.14" y2="1991.14" style="fill:none;stroke:#e4be36;stroke-miterlimit:10;stroke-width:14px"/>
+			<line x1="1205.14" y1="2043.14" x2="1205.14" y2="3279.14" style="fill:none;stroke:#e4be36;stroke-miterlimit:10;stroke-width:14px"/><path d="M1480,1136c0,15-5.06,35.06-13,43" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#e4be36;stroke-miterlimit:10;stroke-width:14px"/><path d="M1302,1324" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#e4be36;stroke-miterlimit:10;stroke-width:14px"/><path d="M1302,1324c16,0,27-7,38-18" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#e4be36;stroke-miterlimit:10;stroke-width:14px"/><path d="M980,1339c0-6.66,15.34-15,22-15" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#e4be36;stroke-miterlimit:10;stroke-width:14px"/><path d="M980,1573c0,12,3,19,11,27" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#e4be36;stroke-miterlimit:10;stroke-width:14px"/><path d="M1453,2062c17,17,27,34,27,52" transform="translate(-274.86 -70.86)" style="fill:none;stroke:#e4be36;stroke-miterlimit:10;stroke-width:14px"/>
+		</g>
+	</g>
+	<g id="LogoCabeceras">
+		<path d="M1503.61,541.21a8.11,8.11,0,0,1-8.12,8.1h-30.78a8.1,8.1,0,0,1-8.1-8.1V510.42a8.11,8.11,0,0,1,8.1-8.11h30.78a8.11,8.11,0,0,1,8.12,8.11Z" transform="translate(-274.86 -70.86)" style="fill:#e6b036"/><path d="M1480.39,510.42h5.85v30.69h-6.41V517.67l-6.65,4.28-2.93-4.79Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1503.16,3413.91a8.11,8.11,0,0,1-8.11,8.1h-30.78a8.11,8.11,0,0,1-8.11-8.1v-30.79a8.11,8.11,0,0,1,8.11-8.11h30.78a8.11,8.11,0,0,1,8.11,8.11Z" transform="translate(-274.86 -70.86)" style="fill:#e6b036"/><path d="M1479.94,3383.12h5.86v30.69h-6.42v-23.44l-6.65,4.28-2.93-4.79Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1552.2,2819.46a6.21,6.21,0,0,1-6.21,6.21h-23.58a6.22,6.22,0,0,1-6.21-6.21v-23.58a6.22,6.22,0,0,1,6.21-6.21H1546a6.21,6.21,0,0,1,6.21,6.21Z" transform="translate(-274.86 -70.86)" style="fill:#e6b036"/><path d="M1534.42,2795.88h4.48v23.51H1534v-17.95l-5.09,3.27-2.25-3.66Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1553.74,2604.05a6.21,6.21,0,0,1-6.21,6.21H1524a6.22,6.22,0,0,1-6.22-6.21v-23.58a6.22,6.22,0,0,1,6.22-6.21h23.57a6.2,6.2,0,0,1,6.21,6.21Z" transform="translate(-274.86 -70.86)" style="fill:#e6b036"/><path d="M1536,2580.47h4.49V2604h-4.92V2586l-5.09,3.28-2.25-3.67Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1550.7,807.92a6.21,6.21,0,0,1-6.21,6.21h-23.58a6.22,6.22,0,0,1-6.21-6.21V784.34a6.22,6.22,0,0,1,6.21-6.21h23.58a6.21,6.21,0,0,1,6.21,6.21Z" transform="translate(-274.86 -70.86)" style="fill:#e6b036"/><path d="M1532.92,784.34h4.48v23.51h-4.91v-18l-5.09,3.28-2.25-3.67Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M785.07,250A8.11,8.11,0,0,1,777,258.1H746.19a8.11,8.11,0,0,1-8.12-8.12V219.22a8.12,8.12,0,0,1,8.12-8.12H777a8.12,8.12,0,0,1,8.11,8.12Z" transform="translate(-274.86 -70.86)" style="fill:#b83a76"/><path d="M751.62,250.22v-5.44l6.55-6.65c4-4.1,6.24-6.47,6.24-9.44,0-3.12-1.45-4.05-5-4.05a52.19,52.19,0,0,0-7.25.7l-.32-5A36,36,0,0,1,761,219c7,0,10,3.07,10,8.79,0,4.74-1.81,7.43-6.88,12l-5.35,4.84h12.75v5.58Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1241.5,2680.38a8.11,8.11,0,0,1-8.11,8.12h-30.78a8.11,8.11,0,0,1-8.11-8.12v-30.76a8.12,8.12,0,0,1,8.11-8.12h30.78a8.12,8.12,0,0,1,8.11,8.12Z" transform="translate(-274.86 -70.86)" style="fill:#b83a76"/><path d="M1208.05,2680.63v-5.45l6.55-6.65c4-4.09,6.23-6.46,6.23-9.44s-1.44-4-5-4a52.92,52.92,0,0,0-7.25.69l-.33-5a36.13,36.13,0,0,1,9.21-1.39c7,0,10,3.07,10,8.8,0,4.74-1.81,7.43-6.88,12l-5.34,4.84H1228v5.59Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1980.84,674.56a8.11,8.11,0,0,1-8.11,8.11H1942a8.11,8.11,0,0,1-8.11-8.11V643.78a8.12,8.12,0,0,1,8.11-8.11h30.78a8.12,8.12,0,0,1,8.11,8.11Z" transform="translate(-274.86 -70.86)" style="fill:#c21d2d"/><path d="M1946.93,644.87a27.82,27.82,0,0,1,8.93-1.67c8.09,0,10.74,2.74,10.74,8.46a7.56,7.56,0,0,1-3.58,6.89c2.56,1.39,4.14,2.51,4.14,6.65,0,6.47-3,9.82-10.47,9.82a42.57,42.57,0,0,1-10-1.59l.32-4.88a65.55,65.55,0,0,0,8.74.89c3.16,0,4.8-1.26,4.8-4.1,0-2.28-1.82-3.77-4.47-3.77h-6.18v-5.3h6.18a4.25,4.25,0,0,0,3.91-4.19c0-2.19-1.45-3.3-4.61-3.3a52.13,52.13,0,0,0-8,.83Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M321.86,1795.39a8.11,8.11,0,0,1-8.11,8.11H283a8.11,8.11,0,0,1-8.11-8.11v-30.78a8.12,8.12,0,0,1,8.11-8.11h30.78a8.12,8.12,0,0,1,8.11,8.11Z" transform="translate(-274.86 -70.86)" style="fill:#c21d2d"/><path d="M288,1765.7a27.82,27.82,0,0,1,8.93-1.67c8.09,0,10.74,2.74,10.74,8.46a7.56,7.56,0,0,1-3.58,6.89c2.56,1.39,4.14,2.51,4.14,6.65,0,6.47-3,9.82-10.47,9.82a42.57,42.57,0,0,1-10-1.59l.32-4.88a65.55,65.55,0,0,0,8.74.89c3.17,0,4.8-1.26,4.8-4.1,0-2.28-1.81-3.77-4.47-3.77h-6.18v-5.3h6.18a4.25,4.25,0,0,0,3.91-4.19c0-2.19-1.44-3.3-4.61-3.3a52.13,52.13,0,0,0-8,.83Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M722.89,945.88a6.21,6.21,0,0,1-6.22,6.22H693.1a6.21,6.21,0,0,1-6.21-6.22V922.32a6.22,6.22,0,0,1,6.21-6.22h23.57a6.22,6.22,0,0,1,6.22,6.22Z" transform="translate(-274.86 -70.86)" style="fill:#b83a76"/><path d="M697.26,946.07V941.9l5-5.1c3.07-3.13,4.78-4.95,4.78-7.22s-1.11-3.1-3.85-3.1a40.59,40.59,0,0,0-5.56.53l-.24-3.82a27.75,27.75,0,0,1,7.05-1.06c5.38,0,7.65,2.35,7.65,6.74,0,3.63-1.38,5.69-5.27,9.22l-4.09,3.7h9.76v4.28Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1208.24,719.23a8.11,8.11,0,0,1-8.11,8.12h-30.77a8.11,8.11,0,0,1-8.12-8.12V688.46a8.11,8.11,0,0,1,8.12-8.11h30.77a8.11,8.11,0,0,1,8.11,8.11Z" transform="translate(-274.86 -70.86)" style="fill:#0b4684"/><path d="M1186.33,714.07h-13v-4.89l7.58-20.74H1188l-8.24,20h6.61v-8.61h6.42v8.61h2.94v5.58h-2.94v5.07h-6.42Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M860.52,934.68a8.11,8.11,0,0,1-8.11,8.12H821.63a8.11,8.11,0,0,1-8.11-8.12V903.91a8.11,8.11,0,0,1,8.11-8.11h30.78a8.11,8.11,0,0,1,8.11,8.11Z" transform="translate(-274.86 -70.86)" style="fill:#0b4684"/><path d="M838.61,929.52h-13v-4.89l7.58-20.74h7.07l-8.24,20h6.61v-8.61H845v8.61H848v5.59H845v5.07h-6.42Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M868.52,1111.23a8.11,8.11,0,0,1-8.11,8.12H829.63a8.11,8.11,0,0,1-8.11-8.12v-30.77a8.11,8.11,0,0,1,8.11-8.11h30.78a8.11,8.11,0,0,1,8.11,8.11Z" transform="translate(-274.86 -70.86)" style="fill:#0b4684"/><path d="M846.61,1106.07h-13v-4.89l7.58-20.74h7.07l-8.24,20h6.61v-8.61H853v8.61H856v5.58H853v5.07h-6.42Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1097.17,1056.78A6.21,6.21,0,0,1,1091,1063h-23.58a6.21,6.21,0,0,1-6.21-6.22v-23.57a6.21,6.21,0,0,1,6.21-6.21H1091a6.21,6.21,0,0,1,6.21,6.21Z" transform="translate(-274.86 -70.86)" style="fill:#0b4684"/><path d="M1080.38,1052.83h-10v-3.75l5.81-15.88h5.41l-6.31,15.35h5.06V1042h4.92v6.59h2.25v4.28h-2.25v3.88h-4.92Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2431.48,1749.54a7.26,7.26,0,0,1-7.25,7.26h-27.5a7.25,7.25,0,0,1-7.25-7.26v-27.49a7.25,7.25,0,0,1,7.25-7.25h27.5a7.26,7.26,0,0,1,7.25,7.25Z" transform="translate(-274.86 -70.86)" style="fill:#0b4684"/><path d="M2411.89,1744.93h-11.63v-4.37L2407,1722h6.31l-7.36,17.91h5.9v-7.69h5.75v7.69h2.62v5h-2.62v4.53h-5.75Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M376.72,1795.38a8.11,8.11,0,0,1-8.11,8.12H337.84a8.12,8.12,0,0,1-8.12-8.12v-30.76a8.13,8.13,0,0,1,8.12-8.12h30.77a8.12,8.12,0,0,1,8.11,8.12Z" transform="translate(-274.86 -70.86)" style="fill:#008458"/><path d="M363,1764.37V1770H349.27l-.8,6.66a17.93,17.93,0,0,1,5.5-1.12c6.27,0,9.95,2.79,9.95,9.26,0,6.92-3.82,10.88-10.51,10.88a48.65,48.65,0,0,1-10.89-1.72l.7-4.74a77.11,77.11,0,0,0,9.4.88c3,0,4.7-1.67,4.7-4.61,0-3.11-1.35-4.37-4.28-4.37a21.88,21.88,0,0,0-5.82.79l-3.81-.88.83-16.61Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2257,1798.74a7.24,7.24,0,0,1-7.25,7.26h-27.5a7.25,7.25,0,0,1-7.25-7.26v-27.49a7.26,7.26,0,0,1,7.25-7.25h27.5a7.25,7.25,0,0,1,7.25,7.25Z" transform="translate(-274.86 -70.86)" style="fill:#008458"/><path d="M2244.73,1771v5h-12.27l-.7,6a16,16,0,0,1,4.9-1c5.61,0,8.9,2.49,8.9,8.27,0,6.19-3.41,9.73-9.4,9.73a43.35,43.35,0,0,1-9.72-1.54l.62-4.24a68.58,68.58,0,0,0,8.4.79c2.7,0,4.2-1.49,4.2-4.12s-1.21-3.9-3.83-3.9a19.6,19.6,0,0,0-5.19.7l-3.41-.79L2228,1771Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1502.06,1446.77a8.11,8.11,0,0,1-8.11,8.12h-30.77a8.12,8.12,0,0,1-8.12-8.12V1416a8.12,8.12,0,0,1,8.12-8.11H1494a8.12,8.12,0,0,1,8.11,8.11Z" transform="translate(-274.86 -70.86)" style="fill:#8062a1"/><path d="M1473.45,1433.61c0,4.46,1.3,8.05,5.22,8.05,3,0,4.64-1.72,4.64-4.7s-1.62-4.38-4.5-4.38a18.58,18.58,0,0,0-5.36,1m14.89-11.9a70.87,70.87,0,0,0-8.65-.7c-4.23,0-6.19,2.93-6.19,7.16a27.77,27.77,0,0,1,5.86-1.17c6.93,0,10.57,3,10.57,10s-4.34,10.28-11.26,10.28c-8.19,0-11.77-6-11.77-15.77,0-11.72,4.92-16,12.79-16a46.26,46.26,0,0,1,9.21,1.35Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2234.57,1525.78a6.21,6.21,0,0,1-6.21,6.22h-23.57a6.22,6.22,0,0,1-6.22-6.22v-23.57a6.22,6.22,0,0,1,6.22-6.21h23.57a6.22,6.22,0,0,1,6.21,6.21Z" transform="translate(-274.86 -70.86)" style="fill:#8062a1"/><path d="M2212.66,1515.7c0,3.42,1,6.16,4,6.16a3.25,3.25,0,0,0,3.56-3.6c0-2.2-1.24-3.35-3.45-3.35a14.25,14.25,0,0,0-4.1.79m11.4-9.12a54,54,0,0,0-6.63-.54c-3.24,0-4.73,2.25-4.73,5.49a21.21,21.21,0,0,1,4.48-.89c5.32,0,8.1,2.32,8.1,7.62s-3.32,7.88-8.63,7.88c-6.27,0-9-4.6-9-12.08,0-9,3.77-12.29,9.79-12.29a35.61,35.61,0,0,1,7.06,1Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2303,1798.74a7.25,7.25,0,0,1-7.25,7.26h-27.5a7.26,7.26,0,0,1-7.25-7.26v-27.49a7.26,7.26,0,0,1,7.25-7.25h27.5a7.25,7.25,0,0,1,7.25,7.25Z" transform="translate(-274.86 -70.86)" style="fill:#8062a1"/><path d="M2277.43,1787c0,4,1.17,7.19,4.66,7.19,2.66,0,4.15-1.53,4.15-4.2s-1.45-3.91-4-3.91a16.63,16.63,0,0,0-4.79.92m13.31-10.64a64,64,0,0,0-7.74-.62c-3.78,0-5.52,2.62-5.52,6.4a25.18,25.18,0,0,1,5.23-1c6.2,0,9.44,2.7,9.44,8.89s-3.87,9.19-10.06,9.19c-7.31,0-10.51-5.36-10.51-14.09,0-10.48,4.4-14.34,11.42-14.34a41.46,41.46,0,0,1,8.23,1.2Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2257,1844.75a7.24,7.24,0,0,1-7.25,7.25h-27.5a7.25,7.25,0,0,1-7.25-7.25v-27.49a7.26,7.26,0,0,1,7.25-7.26h27.5a7.25,7.25,0,0,1,7.25,7.26Z" transform="translate(-274.86 -70.86)" style="fill:#db8418"/><path d="M2227,1817.23h17.54v6.48l-9.77,21.45-5.32-1.49,9.35-20v-1.34H2227Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1298.5,2680.39a8.1,8.1,0,0,1-8.11,8.11h-30.78a8.1,8.1,0,0,1-8.11-8.11v-30.77a8.12,8.12,0,0,1,8.11-8.12h30.78a8.12,8.12,0,0,1,8.11,8.12Z" transform="translate(-274.86 -70.86)" style="fill:#db8418"/><path d="M1264.91,2649.59h19.63v7.25l-10.93,24-5.95-1.67,10.47-22.38v-1.49h-13.22Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2597,1963.6a8.1,8.1,0,0,1-8.1,8.11h-30.79a8.1,8.1,0,0,1-8.11-8.11v-30.77a8.11,8.11,0,0,1,8.11-8.12h30.79a8.11,8.11,0,0,1,8.1,8.12Z" transform="translate(-274.86 -70.86)" style="fill:#40b2cb"/><path d="M2569.23,1941.69a4.33,4.33,0,0,0,2.28,3.64h4.09a4.33,4.33,0,0,0,2.28-3.64c0-2.32-1.49-3.62-4.33-3.62s-4.32,1.3-4.32,3.62m9.12,12.58a3.77,3.77,0,0,0-2.75-3.5h-4.09c-1.91.74-2.79,2-2.79,3.5,0,2.83,1.58,4.09,4.74,4.09s4.89-1.26,4.89-4.09m6.41-13.55c0,3.68-.69,4.88-3.34,7,2.46,2,3.81,3.62,3.81,7.49,0,6.46-5.3,8.88-11.77,8.88s-11.63-1.91-11.63-8.37c0-4.24,1.39-6,3.87-8-2.66-2.15-3.36-3.82-3.36-7.08,0-5.3,4.42-8.37,11.12-8.37s11.3,3,11.3,8.42" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2303,1844.75a7.25,7.25,0,0,1-7.24,7.25h-27.52a7.25,7.25,0,0,1-7.24-7.25v-27.5a7.25,7.25,0,0,1,7.24-7.25h27.52a7.25,7.25,0,0,1,7.24,7.25Z" transform="translate(-274.86 -70.86)" style="fill:#40b2cb"/><path d="M2278.15,1825.17a3.87,3.87,0,0,0,2,3.25h3.66a3.86,3.86,0,0,0,2-3.25c0-2.07-1.32-3.23-3.86-3.23s-3.87,1.16-3.87,3.23m8.15,11.24a3.36,3.36,0,0,0-2.45-3.12h-3.66a3.32,3.32,0,0,0-2.49,3.12c0,2.53,1.41,3.65,4.24,3.65s4.36-1.12,4.36-3.65m5.74-12.1c0,3.28-.62,4.36-3,6.27,2.2,1.83,3.41,3.24,3.41,6.7,0,5.77-4.75,7.94-10.52,7.94s-10.4-1.71-10.4-7.49c0-3.78,1.25-5.32,3.46-7.15a6.81,6.81,0,0,1-3-6.32c0-4.74,3.95-7.48,9.94-7.48s10.1,2.71,10.1,7.53" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1905.5,1103.39a8.09,8.09,0,0,1-8.1,8.11h-30.79a8.1,8.1,0,0,1-8.11-8.11v-30.78a8.12,8.12,0,0,1,8.11-8.11h30.79a8.11,8.11,0,0,1,8.1,8.11Z" transform="translate(-274.86 -70.86)" style="fill:#ad7d4f"/><path d="M1886.94,1085.53c0-4.32-1.3-7.86-5.2-7.86-3,0-4.65,1.73-4.65,4.7s1.67,4.23,4.51,4.23a17.86,17.86,0,0,0,5.34-1.07m-14.88,12.1a70.87,70.87,0,0,0,8.65.7c4.23,0,6.19-2.84,6.19-7.54,0,0-3.63,1.39-5.86,1.39-6.65,0-10.56-3.16-10.56-9.81,0-6.47,4.33-10.28,11.26-10.28,8.09,0,11.77,6,11.77,15.72,0,12.19-4.94,16.1-12.8,16.1a46.26,46.26,0,0,1-9.21-1.35Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M448,1290.89a8.09,8.09,0,0,1-8.1,8.11H409.11a8.1,8.1,0,0,1-8.11-8.11v-30.78a8.12,8.12,0,0,1,8.11-8.11H439.9a8.11,8.11,0,0,1,8.1,8.11Z" transform="translate(-274.86 -70.86)" style="fill:#ad7d4f"/><path d="M429.44,1273c0-4.32-1.3-7.86-5.2-7.86-3,0-4.65,1.73-4.65,4.7s1.67,4.23,4.51,4.23a17.86,17.86,0,0,0,5.34-1.07m-14.88,12.1a70.87,70.87,0,0,0,8.65.7c4.23,0,6.19-2.84,6.19-7.54,0,0-3.63,1.39-5.86,1.39-6.65,0-10.56-3.16-10.56-9.81,0-6.47,4.33-10.28,11.26-10.28,8.09,0,11.77,6,11.77,15.72,0,12.19-4.94,16.1-12.8,16.1a46.26,46.26,0,0,1-9.21-1.35Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1278,2117.79a6.2,6.2,0,0,1-6.21,6.21h-23.58a6.21,6.21,0,0,1-6.21-6.21v-23.58a6.22,6.22,0,0,1,6.21-6.21h23.58a6.21,6.21,0,0,1,6.21,6.21Z" transform="translate(-274.86 -70.86)" style="fill:#ad7d4f"/><path d="M1263.79,2104.11c0-3.31-1-6-4-6a3.25,3.25,0,0,0-3.56,3.6c0,2.17,1.28,3.24,3.45,3.24a13.71,13.71,0,0,0,4.1-.82m-11.4,9.27a54.69,54.69,0,0,0,6.62.53c3.24,0,4.74-2.18,4.74-5.77a18.64,18.64,0,0,1-4.49,1.06c-5.09,0-8.08-2.42-8.08-7.51s3.31-7.87,8.62-7.87c6.2,0,9,4.59,9,12,0,9.33-3.77,12.33-9.8,12.33a35.13,35.13,0,0,1-7-1Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2645.9,2241.75a8.1,8.1,0,0,1-8.1,8.11H2607a8.11,8.11,0,0,1-8.11-8.11V2211a8.12,8.12,0,0,1,8.11-8.11h30.79a8.11,8.11,0,0,1,8.1,8.11Z" transform="translate(-274.86 -70.86)" style="fill:#b3cb6d"/><path d="M2601.28,2218l2.52,4.14,5.72-3.69v20.16h5.53v-26.41H2610Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2631.94,2211.75c-6.57,0-10.25,3.84-10.25,13.84s3.68,13.53,10.25,13.53,10.24-3.52,10.24-13.53S2638.5,2211.75,2631.94,2211.75Zm0,4.81c3.2,0,4.52,2.15,4.52,9,0,6.49-1.32,8.72-4.52,8.72s-4.61-2.23-4.61-8.72C2627.37,2218.71,2628.77,2216.56,2632,2216.56Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1620,2237.75a8.1,8.1,0,0,1-8.11,8.11h-30.78a8.1,8.1,0,0,1-8.11-8.11V2207a8.11,8.11,0,0,1,8.11-8.11h30.78A8.11,8.11,0,0,1,1620,2207Z" transform="translate(-274.86 -70.86)" style="fill:#b3cb6d"/><path d="M1575.39,2214l2.52,4.14,5.72-3.69v20.16h5.52v-26.41h-5Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1606,2207.75c-6.56,0-10.24,3.84-10.24,13.84s3.68,13.53,10.24,13.53,10.25-3.52,10.25-13.53S1612.61,2207.75,1606,2207.75Zm0,4.81c3.2,0,4.52,2.15,4.52,9,0,6.49-1.32,8.72-4.52,8.72s-4.6-2.23-4.6-8.72C1601.48,2214.71,1602.88,2212.56,1606.08,2212.56Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2262.23,2284.15a6.2,6.2,0,0,1-6.2,6.21h-23.59a6.21,6.21,0,0,1-6.21-6.21v-23.57a6.22,6.22,0,0,1,6.21-6.22H2256a6.21,6.21,0,0,1,6.2,6.22Z" transform="translate(-274.86 -70.86)" style="fill:#b3cb6d"/><path d="M2228.05,2266l1.94,3.17,4.38-2.82v15.44h4.23v-20.23h-3.86Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2251.53,2261.17c-5,0-7.84,2.94-7.84,10.6s2.82,10.36,7.84,10.36,7.85-2.69,7.85-10.36S2256.56,2261.17,2251.53,2261.17Zm0,3.68c2.45,0,3.46,1.65,3.46,6.92,0,5-1,6.68-3.46,6.68s-3.53-1.71-3.53-6.68C2248,2266.5,2249.11,2264.85,2251.57,2264.85Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/></g>
+
+		<g id="Leyenda"><rect x="897.2" width="615.94" height="135.75" style="fill:none"/><path d="M1470,151.09c0-18-12.15-26.34-25.53-26.34S1419,133.06,1419,151.09s12.15,26.34,25.52,26.34S1470,169.12,1470,151.09Zm286-1.21c-10.94,1.42-16.31,6.18-16.31,14.08,0,9,7.39,13.47,15.6,13.47a23,23,0,0,0,17.42-7.8c.11,3.24.71,6.38,4.36,7a9.51,9.51,0,0,0,2.43.31,13.9,13.9,0,0,0,4.26-.92v-4.25c-4.56,1.62-5.68.61-5.68-3.65V142.68c0-10.84-7.49-14.48-16.91-14.48-10.24,0-18.44,4.45-19.25,15.4h5.47c1-8.11,6.18-10.54,13.57-10.54,8.41,0,11.65,3.95,11.65,9.42,0,1.62-.2,4.05-2,4.86a28.6,28.6,0,0,1-7.09,1.52Zm-223.08,0c-10.94,1.42-16.31,6.18-16.31,14.08,0,9,7.4,13.47,15.6,13.47a23,23,0,0,0,17.43-7.8c.1,3.24.71,6.38,4.36,7a9.51,9.51,0,0,0,2.43.31,13.83,13.83,0,0,0,4.25-.92v-4.25c-4.56,1.62-5.67.61-5.67-3.65V142.68c0-10.84-7.5-14.48-16.92-14.48-10.23,0-18.44,4.45-19.25,15.4h5.47c1-8.11,6.18-10.54,13.58-10.54,8.41,0,11.65,3.95,11.65,9.42,0,1.62-.2,4.05-2,4.86a28.41,28.41,0,0,1-7.09,1.52Zm89.86,4.15c.1-16.82-7.8-25.93-20.56-25.93-13.38,0-21.48,11.14-21.48,24.82s6.48,24.41,21.48,24.41c11.85,0,17.52-6.79,20.16-15.6h-6.08c-1.62,6.89-7.09,10.74-14.18,10.74-10.34,0-15.81-8.41-15.71-18.54h36.37Zm93.61-9.93h-5.47c-1.93-7-6.69-11.14-13.88-11.14-11.14,0-15.7,10.13-15.7,19.85s4.56,19.66,15.7,19.66c8.1,0,13.17-4.76,14.38-12.56h5.78c-1.93,10.43-8.41,17.42-20.16,17.42-14.89,0-21.48-10.74-21.48-24.52,0-13,7.5-24.71,21.48-24.71C1707.77,128.1,1714.76,133.26,1716.38,144.1Zm-374.12,17.33c-1,3.54-4.76,5.47-8.41,5.47-10.64,0-11.35-8.41-11.75-12.26h34.34v-2.33c0-22.8-13.58-27.56-23.5-27.56C1311.05,124.75,1309,144,1309,150c0,20.56,10.84,27.35,24.92,27.35,8.51,0,18.54-4,22-16h-13.67Zm34.64-48.83h-13.17v13.57H1357v9.42h6.78V166c0,6.49,2,10.84,13.48,10.84h1.72c2,0,4.15-.1,6.18-.2v-9.93a27.34,27.34,0,0,1-2.74.21c-5.37,0-5.47-1.12-5.47-4.06V135.69h8.21v-9.42h-8.21Zm259,38.29a23.1,23.1,0,0,1,1.22-8.81,13.62,13.62,0,0,1,13-9.12c8.62,0,12.06,4.25,12.06,12.66v30.49h5.37V145.52c0-3.85-.1-7.39-2.33-10.74-3.34-4.86-8.61-6.68-14.29-6.68-6.48,0-10.73,3.14-15.09,7.8v-6.49h-5.37v46.7h5.37V150.89Zm-219.15-26.14a22.68,22.68,0,0,1,2.46.21v13.37a23,23,0,0,0-3.75-.2c-10.23,0-12.16,6.38-12.16,12v26h-13.06v-50h12.56v8.61h.2c2.63-5.06,5.67-9.93,13.68-9.93Zm155.63-13.57h-5.37v64.93h5.37Zm-82.76,64.93h6l18.14-46.8h-5.88l-15.09,40.12-15.2-40.12h-5.87Zm241.71-46.8H1726V176h5.37Zm41.23,29.58c0,9.42-8.51,13.58-17,13.58-5.16,0-10.13-2.74-10.13-8.41,0-6.28,5-9.32,13.17-9.93,4.66-.4,9.42-.71,14-2.63Zm-223.07,0c0,9.42-8.51,13.58-17,13.58-5.17,0-10.13-2.74-10.13-8.41,0-6.28,5-9.32,13.17-9.93,4.66-.4,9.42-.71,14-2.63Zm-93-7.8c0,6.38-1.93,15.2-12.06,15.2s-12-8.82-12-15.2,1.92-15.19,12-15.19S1456.53,144.71,1456.53,151.09Zm130-1.62c1.12-8.81,6.18-16.51,15.71-16.51,9.72,0,14.79,7.39,14.79,16.51Zm-264-3.34c.71-6.59,4-10.54,10.23-10.54,4.26,0,9.43,2.43,10.13,10.54Zm409.07-34.95h-6v8h6Z" transform="translate(-274.86 -70.86)" style="fill:#1c1c1b"/><path d="M1175.91,138a65.65,65.65,0,1,1,65.65,65.65A65.63,65.63,0,0,1,1175.91,138" transform="translate(-274.86 -70.86)" style="fill:#ce1b42"/><path d="M1241.36,123.33v6.18h.2c1.92-3.24,5.67-7.49,13.57-7.49,7,0,10.34,2.43,13.58,7.39,1.82-2.63,5.57-7.39,13-7.39,9.82,0,17.42,5.77,17.42,16.71v30.93c-1,1.9-2.19,3.76-3.42,5.54h-10.36V142c0-3.74,0-9-7-9-5.57,0-7.29,3.85-7.29,8.71V175.2h-14.59V142c0-3.74,0-9-7-9-5.57,0-7.29,3.85-7.29,8.71V175.2h-14.59V123.33Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/></g>
+
+<!-- listado de estaciones -->
+<g id="Estaciones">
+	<g id="Linea10-2" data-name="Linea10">
+		<circle id="NazaretArea" cx="2298.14" cy="2155.14" r="20" style="fill:none"/>
+		<g><circle id="Nazaret" class="stationCircle" cx="2298.14" cy="2155.14" r="14.5" style="fill:#fff"/><path d="M2573,2214a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="MoreresArea" class="stationCircle" cx="2119.14" cy="2155.14" r="20" style="fill:none"/>
+		<g><circle id="Moreres" class="stationCircle" cx="2119.14" cy="2155.14" r="14.5" style="fill:#fff"/><path d="M2394,2214a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="OceanograficArea" cx="1946.14" cy="2155.14" r="20" style="fill:none"/>
+		<g><circle id="Oceanografic" class="stationCircle" cx="1946.14" cy="2155.14" r="14.5" style="fill:#fff"/><path d="M2221,2214a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="CiutatArtsArea" cx="1772.14" cy="2183.14" r="20" style="fill:none"/>
+		<g><circle id="CiutatArts" class="stationCircle" cx="1772.14" cy="2183.14" r="14.5" style="fill:#fff"/><path d="M2047,2242a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="QuatreCarreresArea" cx="1647.14" cy="2239.14" r="20" style="fill:none"/>
+		<g><circle id="QuatreCarreres" class="stationCircle" cx="1647.14" cy="2239.14" r="14.5" style="fill:#fff"/><path d="M1922,2298a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="AmadoGranellArea" cx="1551.14" cy="2144.14" r="20" style="fill:none"/>
+		<g><circle id="AmadoGranell" class="stationCircle" cx="1551.14" cy="2144.14" r="14.5" style="fill:#fff"/><path d="M1826,2203a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="AlacantArea" cx="1307.14" cy="2072.14" r="20" style="fill:none"/>
+		<g><circle id="Alacant" class="stationCircle" cx="1307.14" cy="2072.14" r="14.5" style="fill:#fff"/><path d="M1582,2131a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="RussafaArea" cx="1452.14" cy="2070.14" r="20" style="fill:none"/>
+		<g><circle id="Russafa" class="stationCircle" cx="1452.14" cy="2070.14" r="14.5" style="fill:#fff"/><path d="M1727,2129a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+	</g>
+
+	<g id="Linea9-2" data-name="Linea9">
+		<circle id="RibarojaTuriaArea" cx="150.14" cy="1252.14" r="20" style="fill:none"/>
+		<g><circle id="RibarojaTuria" class="stationCircle" cx="150.14" cy="1252.14" r="14.5" style="fill:#fff"/><path d="M425,1311a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="MasiaTraverArea" cx="149.14" cy="1397.14" r="20" style="fill:none"/>
+		<g><circle id="MasiaTraver" class="stationCircle" cx="149.14" cy="1397.14" r="14.5" style="fill:#fff"/><path d="M424,1456a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="ValenciaLaVellaArea" cx="178.14" cy="1544.14" r="20" style="fill:none"/>
+		<g><circle id="ValenciaLaVella" class="stationCircle" cx="178.14" cy="1544.14" r="14.5" style="fill:#fff"/><path d="M453,1603a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="LaPresaArea" cx="252.14" cy="1618.14" r="20" style="fill:none"/>
+		<g><circle id="LaPresa" class="stationCircle" cx="252.14" cy="1618.14" r="14.5" style="fill:#fff"/><path d="M527,1677a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="LaCovaArea" cx="327.14" cy="1693.14" r="20" style="fill:none"/>
+		<g><circle id="LaCova" class="stationCircle" cx="327.14" cy="1693.14" r="14.5" style="fill:#fff"/><path d="M602,1752a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+	</g>
+
+	<g id="Linea8-2" data-name="Linea8">
+		<circle id="NeptuArea" cx="2299.14" cy="1829.14" r="20" style="fill:none"/>
+		<g><circle id="Neptu" class="stationCircle" cx="2299.14" cy="1829.14" r="14.5" style="fill:#fff"/><path d="M2574,1888a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+	</g>
+
+	<g id="Linea7-2" data-name="Linea7">
+		<g><circle id="Bailen" class="stationCircle" cx="1256.14" cy="2070.14" r="14.5" style="fill:#fff"/><path d="M1531,2129a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+	</g>
+
+	<g id="Linea6-2" data-name="Linea6">
+		<circle id="TossalReiArea" cx="1205.14" cy="1313.14" r="20" style="fill:none"/>
+		<g><circle id="TossalRei" class="stationCircle" cx="1205.14" cy="1313.14" r="14.5" style="fill:#fff"/><path d="M1480,1372a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="SantMiquelReisArea" cx="1285.14" cy="1253.14" r="20" style="fill:none"/>
+		<g><circle id="SantMiquelReis" class="stationCircle" cx="1285.14" cy="1253.14" r="14.5" style="fill:#fff"/><path d="M1560,1312a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="CiutatValenciaArea" cx="1365.14" cy="1306.14" r="20" style="fill:none"/>
+		<g><circle id="CiutatValencia" class="stationCircle" cx="1365.14" cy="1306.14" r="14.5" style="fill:#fff"/><path d="M1640,1365a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="OrriolsArea" cx="1365.14" cy="1371.14" r="20" style="fill:none"/>
+		<g><circle id="Orriols" class="stationCircle" cx="1365.14" cy="1371.14" r="14.5" style="fill:#fff"/><path d="M1640,1430a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="AlfauirArea" cx="1365.14" cy="1436.14" r="20" style="fill:none"/>
+		<g><circle id="Alfauir" class="stationCircle" cx="1365.14" cy="1436.14" r="14.5" style="fill:#fff"/><path d="M1640,1495a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="CanyamelarArea" cx="2219.14" cy="1759.14" r="20" style="fill:none"/>
+		<g><circle id="Canyamelar" class="stationCircle" cx="2219.14" cy="1759.14" r="14.5" style="fill:#fff"/><path d="M2494,1818a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+	</g>
+
+	<g id="Linea4-2" data-name="Linea4">
+		<circle id="MasRosariArea" cx="911.14" cy="679.14" r="20" style="fill:none"/>
+		<g><circle id="MasRosari" class="stationCircle" cx="911.14" cy="679.14" r="14.5" style="fill:#fff"/><path d="M1186,738a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="LaComaArea" cx="911.14" cy="739.14" r="20" style="fill:none"/>
+		<g><circle id="LaComa" class="stationCircle" cx="911.14" cy="739.14" r="14.5" style="fill:#fff"/><path d="M1186,798a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="TomasValienteArea" cx="911.14" cy="799.14" r="20" style="fill:none"/>
+		<g><circle id="TomasValiente" class="stationCircle" cx="911.14" cy="799.14" r="14.5" style="fill:#fff"/><path d="M1186,858a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="ParcCientificArea" cx="806.14" cy="848.14" r="20" style="fill:none"/>
+		<g><circle id="ParcCientific" class="stationCircle" cx="806.14" cy="848.14" r="14.5" style="fill:#fff"/><path d="M1081,907a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="LlomaLlargaArea" cx="609.14" cy="848.14" r="20" style="fill:none"/>
+		<g><circle id="LlomaLlarga" class="stationCircle" cx="609.14" cy="848.14" r="14.5" style="fill:#fff"/><path d="M884,907a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="FiraValenciaArea" cx="570.14" cy="977.14" r="20" style="fill:none"/>
+		<g><circle id="FiraValencia" class="stationCircle" cx="570.14" cy="977.14" r="14.5" style="fill:#fff"/><path d="M845,1036a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="FloristaArea" cx="766.14" cy="1444.14" r="20" style="fill:none"/>
+		<g><circle id="Florista" class="stationCircle" cx="766.14" cy="1444.14" r="14.5" style="fill:#fff"/><path d="M1041,1503a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="PalauCongresosArea" cx="746.14" cy="1350.14" r="20" style="fill:none"/>
+		<g><circle id="PalauCongresos" class="stationCircle" cx="746.14" cy="1350.14" r="14.5" style="fill:#fff"/><path d="M1021,1409a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="GarbiArea" cx="828.14" cy="1506.14" r="20" style="fill:none"/>
+		<g><circle id="Garbi" class="stationCircle" cx="828.14" cy="1506.14" r="14.5" style="fill:#fff"/><path d="M1103,1565a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="BenicalapArea" cx="921.14" cy="1524.14" r="20" style="fill:none"/>
+		<g><circle id="Benicalap" class="stationCircle" cx="921.14" cy="1524.14" r="14.5" style="fill:#fff"/><path d="M1196,1583a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="TransitsArea" cx="1008.14" cy="1524.14" r="20" style="fill:none"/>
+		<g><circle id="Transits" class="stationCircle" cx="1008.14" cy="1524.14" r="14.5" style="fill:#fff"/><path d="M1283,1583a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="MarxalenesArea" cx="1097.14" cy="1524.14" r="20" style="fill:none"/>
+		<g><circle id="Marxalenes" class="stationCircle" cx="1097.14" cy="1524.14" r="14.5" style="fill:#fff"/><path d="M1372,1583a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="ReusArea" cx="1184.14" cy="1524.14" r="20" style="fill:none"/>
+		<g><circle id="Reus" class="stationCircle" cx="1184.14" cy="1524.14" r="14.5" style="fill:#fff"/><path d="M1459,1583a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="SaguntArea" cx="1272.14" cy="1524.14" r="20" style="fill:none"/>
+		<g><circle id="Sagunt" class="stationCircle" cx="1272.14" cy="1524.14" r="14.5" style="fill:#fff"/><path d="M1547,1583a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="PontFustaArea" cx="1345.14" cy="1638.14" r="20" style="fill:none"/>
+		<g><circle id="PontFusta" class="stationCircle" cx="1345.14" cy="1638.14" r="14.5" style="fill:#fff"/><path d="M1620,1697a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="VicentAndresEstellesArea" cx="746.14" cy="974.14" r="20" style="fill:none"/>
+		<g><circle id="VicentAndresEstelles" class="stationCircle" cx="746.14" cy="974.14" r="14.5" style="fill:#fff"/><path d="M1021,1033a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="CampusArea" cx="746.14" cy="1034.14" r="20" style="fill:none"/>
+		<g><circle id="Campus" class="stationCircle" cx="746.14" cy="1034.14" r="14.5" style="fill:#fff"/><path d="M1021,1093a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="SantJoanArea" cx="746.14" cy="1094.14" r="20" style="fill:none"/>
+		<g><circle id="SantJoan" class="stationCircle" cx="746.14" cy="1094.14" r="14.5" style="fill:#fff"/><path d="M1021,1153a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="LaGranjaArea" cx="746.14" cy="1154.14" r="20" style="fill:none"/>
+		<g><circle id="LaGranja" class="stationCircle" cx="746.14" cy="1154.14" r="14.5" style="fill:#fff"/><path d="M1021,1213a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="ApuntArea" cx="746.14" cy="892.14" r="20" style="fill:none"/>
+		<g><circle id="Apunt" class="stationCircle" cx="746.14" cy="892.14" r="14.5" style="fill:#fff"/><path d="M1021,951a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+	</g>
+
+	<g id="Linea3-2" data-name="Linea3">
+		<circle id="AlmasseraArea" cx="1683.14" cy="975.14" r="20" style="fill:none"/>
+		<g><circle id="Almassera" class="stationCircle" cx="1683.14" cy="975.14" r="14.5" style="fill:#fff"/><path d="M1958,1034a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="MelianaArea" cx="1683.14" cy="927.14" r="20" style="fill:none"/>
+		<g><circle id="Meliana" class="stationCircle" cx="1683.14" cy="927.14" r="14.5" style="fill:#fff"/><path d="M1958,986a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="FoiosArea" cx="1683.14" cy="879.14" r="20" style="fill:none"/>
+		<g><circle id="Foios" class="stationCircle" cx="1683.14" cy="879.14" r="14.5" style="fill:#fff"/><path d="M1958,938a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="AlbalatSorellsArea" cx="1683.14" cy="831.14" r="20" style="fill:none"/>
+		<g><circle id="AlbalatSorells" class="stationCircle" cx="1683.14" cy="831.14" r="14.5" style="fill:#fff"/><path d="M1958,890a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="MuserosArea" cx="1683.14" cy="783.14" r="20" style="fill:none"/>
+		<g><circle id="Museros" class="stationCircle" cx="1683.14" cy="783.14" r="14.5" style="fill:#fff"/><path d="M1958,842a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="MassamagrellArea" cx="1683.14" cy="735.14" r="20" style="fill:none"/>
+		<g><circle id="Massamagrell" class="stationCircle" cx="1683.14" cy="735.14" r="14.5" style="fill:#fff"/><path d="M1958,794a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="PoblaFarnalsArea" cx="1683.14" cy="687.14" r="20" style="fill:none"/>
+		<g><circle id="PoblaFarnals" class="stationCircle" cx="1683.14" cy="687.14" r="14.5" style="fill:#fff"/><path d="M1958,746a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="RafelbunyolArea" cx="1683.14" cy="639.14" r="20" style="fill:none"/>
+		<g><circle id="Rafelbunyol" class="stationCircle" cx="1683.14" cy="639.14" r="14.5" style="fill:#fff"/><path d="M1958,698a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+	</g>
+
+	<g id="Linea2-2" data-name="Linea2">
+		<circle id="LliriaArea" cx="486.14" cy="210.14" r="20" style="fill:none"/>
+		<g><circle id="Lliria" class="stationCircle" cx="486.14" cy="210.14" r="14.5" style="fill:#fff"/><path d="M761,269a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="BenaguasilArea" cx="486.14" cy="255.14" r="20" style="fill:none"/>
+		<g><circle id="Benaguasil" class="stationCircle" cx="486.14" cy="255.14" r="14.5" style="fill:#fff"/><path d="M761,314a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="FondoBenaguasilArea" cx="486.14" cy="300.14" r="20" style="fill:none"/>
+		<g><circle id="FondoBenaguasil" class="stationCircle" cx="486.14" cy="300.14" r="14.5" style="fill:#fff"/><path d="M761,359a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="PoblaVallbonaArea" cx="486.14" cy="345.14" r="20" style="fill:none"/>
+		<g><circle id="PoblaVallbona" class="stationCircle" cx="486.14" cy="345.14" r="14.5" style="fill:#fff"/><path d="M761,404a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="GallipontVirreiArea" cx="486.14" cy="390.14" r="20" style="fill:none"/>
+		<g><circle id="GallipontVirrei" class="stationCircle" cx="486.14" cy="390.14" r="14.5" style="fill:#fff"/><path d="M761,449a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="LElianaArea" cx="486.14" cy="435.14" r="20" style="fill:none"/>
+		<g><circle id="LEliana" class="stationCircle" cx="486.14" cy="435.14" r="14.5" style="fill:#fff"/><path d="M761,494a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="MontesolArea" cx="486.14" cy="480.14" r="20" style="fill:none"/>
+		<g><circle id="Montesol" class="stationCircle" cx="486.14" cy="480.14" r="14.5" style="fill:#fff"/><path d="M761,539a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="ElClotArea" cx="486.14" cy="525.14" r="20" style="fill:none"/>
+		<g><circle id="ElClot" class="stationCircle" cx="486.14" cy="525.14" r="14.5" style="fill:#fff"/><path d="M761,584a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="EntrepinsArea" cx="486.14" cy="570.14" r="20" style="fill:none"/>
+		<g><circle id="Entrepins" class="stationCircle" cx="486.14" cy="570.14" r="14.5" style="fill:#fff"/><path d="M761,629a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="LaVallesaArea" cx="486.14" cy="624.14" r="20" style="fill:none"/>
+		<g><circle id="LaVallesa" class="stationCircle" cx="486.14" cy="624.14" r="14.5" style="fill:#fff"/><path d="M761,683a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="LaCanyadaArea" cx="486.14" cy="672.14" r="20" style="fill:none"/>
+		<g><circle id="LaCanyada" class="stationCircle" cx="486.14" cy="672.14" r="14.5" style="fill:#fff"/><path d="M761,731a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="FontBarrancArea" cx="486.14" cy="720.14" r="20" style="fill:none"/>
+		<g><circle id="FontBarranc" class="stationCircle" cx="486.14" cy="720.14" r="14.5" style="fill:#fff"/><path d="M761,779a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="FuenteJarroArea" cx="486.14" cy="768.14" r="20" style="fill:none"/>
+		<g><circle id="FuenteJarro" class="stationCircle" cx="486.14" cy="768.14" r="14.5" style="fill:#fff"/><path d="M761,827a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="SantaRitaArea" cx="486.14" cy="816.14" r="20" style="fill:none"/>
+		<g><circle id="SantaRita" class="stationCircle" cx="486.14" cy="816.14" r="14.5" style="fill:#fff"/><path d="M761,875a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="PaternaArea" cx="486.14" cy="864.14" r="20" style="fill:none"/>
+		<g><circle id="Paterna" class="stationCircle" cx="486.14" cy="864.14" r="14.5" style="fill:#fff"/><path d="M761,923a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="CampamentArea" cx="486.14" cy="912.14" r="20" style="fill:none"/>
+		<g><circle id="Campament" class="stationCircle" cx="486.14" cy="912.14" r="14.5" style="fill:#fff"/><path d="M761,971a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="LesCarolinesFiraArea" cx="486.14" cy="960.14" r="20" style="fill:none"/>
+		<g><circle id="LesCarolinesFira" class="stationCircle" cx="486.14" cy="960.14" r="14.5" style="fill:#fff"/><path d="M761,1019a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="BenimametArea" cx="486.14" cy="1008.14" r="20" style="fill:none"/>
+		<g><circle id="Benimamet" class="stationCircle" cx="486.14" cy="1008.14" r="14.5" style="fill:#fff"/><path d="M761,1067a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="CantereriaArea" cx="486.14" cy="1056.14" r="20" style="fill:none"/>
+		<g><circle id="Cantereria" class="stationCircle" cx="486.14" cy="1056.14" r="14.5" style="fill:#fff"/><path d="M761,1115a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+	</g>
+
+	<g id="Linea1-2" data-name="Linea1">
+		<circle id="CastelloArea" cx="1205.14" cy="3279.14" r="20" style="fill:none"/>
+		<g><circle id="Castello" class="stationCircle" cx="1205.14" cy="3279.14" r="14.5" style="fill:#fff"/><path d="M1480,3338a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="AlbericArea" cx="1205.14" cy="3237.14" r="20" style="fill:none"/>
+		<g><circle id="Alberic" class="stationCircle" cx="1205.14" cy="3237.14" r="14.5" style="fill:#fff"/><path d="M1480,3296a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="MassalavesArea" cx="1205.14" cy="3196.14" r="20" style="fill:none"/>
+		<g><circle id="Massalaves" class="stationCircle" cx="1205.14" cy="3196.14" r="14.5" style="fill:#fff"/><path d="M1480,3255a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="MontortalArea" cx="1205.14" cy="3155.14" r="20" style="fill:none"/>
+		<g><circle id="Montortal" class="stationCircle" cx="1205.14" cy="3155.14" r="14.5" style="fill:#fff"/><path d="M1480,3214a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="LAlcudiaArea" cx="1205.14" cy="3114.14" r="20" style="fill:none"/>
+		<g><circle id="LAlcudia" class="stationCircle" cx="1205.14" cy="3114.14" r="14.5" style="fill:#fff"/><path d="M1480,3173a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="BenimodoArea" cx="1205.14" cy="3073.14" r="20" style="fill:none"/>
+		<g><circle id="Benimodo" class="stationCircle" cx="1205.14" cy="3073.14" r="14.5" style="fill:#fff"/><path d="M1480,3132a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="CarletArea" cx="1205.14" cy="3029.14" r="20" style="fill:none"/>
+		<g><circle id="Carlet" class="stationCircle" cx="1205.14" cy="3029.14" r="14.5" style="fill:#fff"/><path d="M1480,3088a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="AusiasMarchArea" cx="1205.14" cy="2985.14" r="20" style="fill:none"/>
+		<g><circle id="AusiasMarch" class="stationCircle" cx="1205.14" cy="2985.14" r="14.5" style="fill:#fff"/><path d="M1480,3044a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="AlginetArea" cx="1205.14" cy="2941.14" r="20" style="fill:none"/>
+		<g><circle id="Alginet" class="stationCircle" cx="1205.14" cy="2941.14" r="14.5" style="fill:#fff"/><path d="M1480,3000a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="FontAlmaguerArea" cx="1205.14" cy="2897.14" r="20" style="fill:none"/>
+		<g><circle id="FontAlmaguer" class="stationCircle" cx="1205.14" cy="2897.14" r="14.5" style="fill:#fff"/><path d="M1480,2956a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="EspiocaArea" cx="1205.14" cy="2821.14" r="20" style="fill:none"/>
+		<g><circle id="Espioca" class="stationCircle" cx="1205.14" cy="2821.14" r="14.5" style="fill:#fff"/><path d="M1480,2880a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="OmetArea" cx="1205.14" cy="2779.14" r="20" style="fill:none"/>
+		<g><circle id="Omet" class="stationCircle" cx="1205.14" cy="2779.14" r="14.5" style="fill:#fff"/><path d="M1480,2838a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="PicassentArea" cx="1205.14" cy="2737.14" r="20" style="fill:none"/>
+		<g><circle id="Picassent" class="stationCircle" cx="1205.14" cy="2737.14" r="14.5" style="fill:#fff"/><path d="M1480,2796a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="SantRamonArea" cx="1205.14" cy="2692.14" r="20" style="fill:none"/>
+		<g><circle id="SantRamon" class="stationCircle" cx="1205.14" cy="2692.14" r="14.5" style="fill:#fff"/><path d="M1480,2751a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="RealonArea" cx="1205.14" cy="2647.14" r="20" style="fill:none"/>
+		<g><circle id="Realon" class="stationCircle" cx="1205.14" cy="2647.14" r="14.5" style="fill:#fff"/><path d="M1480,2706a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="ColegiElVedatArea" cx="1205.14" cy="2602.14" r="20" style="fill:none"/>
+		<g><circle id="ColegiElVedat" class="stationCircle" cx="1205.14" cy="2602.14" r="14.5" style="fill:#fff"/><path d="M1480,2661a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="BeteraArea" cx="1205.14" cy="504.14" r="20" style="fill:none"/>
+		<g><circle id="Betera" class="stationCircle" cx="1205.14" cy="504.14" r="14.5" style="fill:#fff"/><path d="M1480,563a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="HortaVellaArea" cx="1205.14" cy="555.14" r="20" style="fill:none"/>
+		<g><circle id="HortaVella" class="stationCircle" cx="1205.14" cy="555.14" r="14.5" style="fill:#fff"/><path d="M1480,614a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="MasiesArea" cx="1205.14" cy="677.14" r="20" style="fill:none"/>
+		<g><circle id="Masies" class="stationCircle" cx="1205.14" cy="677.14" r="14.5" style="fill:#fff"/><path d="M1480,736a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="SeminariCeuArea" cx="1205.14" cy="725.14" r="20" style="fill:none"/>
+		<g><circle id="SeminariCeu" class="stationCircle" cx="1205.14" cy="725.14" r="14.5" style="fill:#fff"/><path d="M1480,784a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="MoncadaAlfaraArea" cx="1205.14" cy="773.14" r="20" style="fill:none"/>
+		<g><circle id="MoncadaAlfara" class="stationCircle" cx="1205.14" cy="773.14" r="14.5" style="fill:#fff"/><path d="M1480,832a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="MassarrojosArea" cx="1205.14" cy="846.14" r="20" style="fill:none"/>
+		<g><circle id="Massarrojos" class="stationCircle" cx="1205.14" cy="846.14" r="14.5" style="fill:#fff"/><path d="M1480,905a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="RocafortArea" cx="1205.14" cy="895.14" r="20" style="fill:none"/>
+		<g><circle id="Rocafort" class="stationCircle" cx="1205.14" cy="895.14" r="14.5" style="fill:#fff"/><path d="M1480,954a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="GodellaArea" cx="1205.14" cy="972.14" r="20" style="fill:none"/>
+		<g><circle id="Godella" class="stationCircle" cx="1205.14" cy="972.14" r="14.5" style="fill:#fff"/><path d="M1480,1031a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="BurjassotGodellaArea" cx="1205.14" cy="1018.14" r="20" style="fill:none"/>
+		<g><circle id="BurjassotGodella" class="stationCircle" cx="1205.14" cy="1018.14" r="14.5" style="fill:#fff"/><path d="M1480,1077a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<circle id="BurjassotArea" cx="1205.14" cy="1064.14" r="20" style="fill:none"/>
+		<g><circle id="Burjassot" class="stationCircle" cx="1205.14" cy="1064.14" r="14.5" style="fill:#fff"/><path d="M1480,1123a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-5a17,17,0,1,0,17,17,17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+	</g>
+
+	<g id="Conexiones2">
+		<g><path id="Beniferri" class="stationCircle" d="M1054.29,1709.53a14.5,14.5,0,0,1-10.26-24.75l15.56-15.56a14.5,14.5,0,0,1,20.51,20.51l-15.56,15.56A14.39,14.39,0,0,1,1054.29,1709.53Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1069.84,1667.48a12,12,0,0,1,8.49,20.48l-15.56,15.56a12,12,0,0,1-17-17l15.56-15.56a11.89,11.89,0,0,1,8.48-3.51m0-5a17,17,0,0,0-12,5L1042.26,1683a17,17,0,0,0,24,24l15.55-15.55a17,17,0,0,0-12-29Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Campanar" class="stationCircle" d="M1144.07,1799.45a14.5,14.5,0,0,1-10.25-24.75l15.56-15.56a14.5,14.5,0,1,1,20.5,20.51l-15.55,15.55A14.41,14.41,0,0,1,1144.07,1799.45Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1159.63,1757.39a12,12,0,0,1,8.48,20.49l-15.55,15.55a12,12,0,1,1-17-17l15.55-15.55a11.92,11.92,0,0,1,8.49-3.52m0-5a17,17,0,0,0-12,5l-15.56,15.56a17,17,0,1,0,24,24l15.56-15.56a17,17,0,0,0-12-29Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Turia" class="stationCircle" d="M1237.07,1893.24a14.5,14.5,0,0,1-10.25-24.76l15.56-15.55a14.5,14.5,0,1,1,20.5,20.5L1247.33,1889A14.41,14.41,0,0,1,1237.07,1893.24Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1252.63,1851.18a12,12,0,0,1,8.48,20.48l-15.55,15.56a12,12,0,1,1-17-17l15.55-15.56a12,12,0,0,1,8.49-3.51m0-5a17,17,0,0,0-12,5l-15.56,15.55a17,17,0,1,0,24,24l15.56-15.56a17,17,0,0,0-12-29Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="PlazaEspanya" class="stationCircle" d="M1439.24,2095.6a14.51,14.51,0,0,1-10.25-24.76l15.56-15.55a14.5,14.5,0,0,1,20.5,20.5l-15.55,15.56A14.41,14.41,0,0,1,1439.24,2095.6Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1454.8,2053.54a12,12,0,0,1,8.48,20.49l-15.55,15.55a12,12,0,1,1-17-17l15.55-15.55a11.92,11.92,0,0,1,8.49-3.52m0-5a17,17,0,0,0-12,5l-15.56,15.56a17,17,0,1,0,24,24l15.56-15.56a17,17,0,0,0-12-29Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="TorrentAvinguda" class="stationCircle" d="M1328,2691.71a14.51,14.51,0,0,1-14.5-14.5v-22a14.5,14.5,0,0,1,29,0v22A14.51,14.51,0,0,1,1328,2691.71Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1328,2643.21a12,12,0,0,1,12,12v22a12,12,0,0,1-24,0v-22a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v22a17,17,0,0,0,34,0v-22a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Aragon" class="stationCircle" d="M1960,1866.73a14.51,14.51,0,0,1-14.5-14.5v-22a14.5,14.5,0,0,1,29,0v22A14.52,14.52,0,0,1,1960,1866.73Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1960,1818.23a12,12,0,0,1,12,12v22a12,12,0,0,1-24,0v-22a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v22a17,17,0,0,0,34,0v-22a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Amistat" class="stationCircle" d="M2070,1866.73a14.51,14.51,0,0,1-14.5-14.5v-22a14.5,14.5,0,0,1,29,0v22A14.52,14.52,0,0,1,2070,1866.73Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2070,1818.23a12,12,0,0,1,12,12v22a12,12,0,0,1-24,0v-22a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v22a17,17,0,0,0,34,0v-22a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="VicentZaragoza" class="stationCircle" d="M1909,1609.65a14.52,14.52,0,0,1-14.5-14.5v-22a14.5,14.5,0,0,1,29,0v22A14.52,14.52,0,0,1,1909,1609.65Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1909,1561.15a12,12,0,0,1,12,12v22a12,12,0,0,1-24,0v-22a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v22a17,17,0,0,0,34,0v-22a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Politecnica" class="stationCircle" d="M2012,1609.65a14.52,14.52,0,0,1-14.5-14.5v-22a14.5,14.5,0,0,1,29,0v22A14.52,14.52,0,0,1,2012,1609.65Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2012,1561.15a12,12,0,0,1,12,12v22a12,12,0,0,1-24,0v-22a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v22a17,17,0,0,0,34,0v-22a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="LaCarrasca" class="stationCircle" d="M2114,1609.65a14.52,14.52,0,0,1-14.5-14.5v-22a14.5,14.5,0,0,1,29,0v22A14.52,14.52,0,0,1,2114,1609.65Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2114,1561.15a12,12,0,0,1,12,12v22a12,12,0,0,1-24,0v-22a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v22a17,17,0,0,0,34,0v-22a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Tarongers" class="stationCircle" d="M2217,1609.65a14.52,14.52,0,0,1-14.5-14.5v-22a14.5,14.5,0,0,1,29,0v22A14.52,14.52,0,0,1,2217,1609.65Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2217,1561.15a12,12,0,0,1,12,12v22a12,12,0,0,1-24,0v-22a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v22a17,17,0,0,0,34,0v-22a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Betero" class="stationCircle" d="M2321,1609.65a14.52,14.52,0,0,1-14.5-14.5v-22a14.5,14.5,0,0,1,29,0v22A14.52,14.52,0,0,1,2321,1609.65Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2321,1561.15a12,12,0,0,1,12,12v22a12,12,0,0,1-24,0v-22a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v22a17,17,0,0,0,34,0v-22a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="LaCadena" class="stationCircle" d="M2424,1609.65a14.52,14.52,0,0,1-14.5-14.5v-22a14.5,14.5,0,0,1,29,0v22A14.52,14.52,0,0,1,2424,1609.65Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2424,1561.15a12,12,0,0,1,12,12v22a12,12,0,0,1-24,0v-22a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v22a17,17,0,0,0,34,0v-22a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="FrancescCubells" class="stationCircle" d="M2376,1914.73a14.52,14.52,0,0,1-14.5-14.5v-22a14.5,14.5,0,1,1,29,0v22A14.51,14.51,0,0,1,2376,1914.73Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2376,1866.23a12,12,0,0,1,12,12v22a12,12,0,0,1-24,0v-22a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v22a17,17,0,0,0,34,0v-22a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="GrauLaMarina" class="stationCircle" d="M2454,1914.73a14.52,14.52,0,0,1-14.5-14.5v-22a14.5,14.5,0,1,1,29,0v22A14.51,14.51,0,0,1,2454,1914.73Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2454,1866.23a12,12,0,0,1,12,12v22a12,12,0,0,1-24,0v-22a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v22a17,17,0,0,0,34,0v-22a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Trinitat" class="stationCircle" d="M1709,1610.12a14.52,14.52,0,0,1-14.5-14.5v-22a14.5,14.5,0,0,1,29,0v22A14.52,14.52,0,0,1,1709,1610.12Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1709,1561.62a12,12,0,0,1,12,12v22a12,12,0,0,1-24,0v-22a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v22a17,17,0,0,0,34,0v-22a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Aeroport" class="stationCircle" d="M329,1866.54a14.52,14.52,0,0,1-14.5-14.5v-22a14.5,14.5,0,0,1,29,0v22A14.51,14.51,0,0,1,329,1866.54Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M329,1818a12,12,0,0,1,12,12v22a12,12,0,0,1-24,0v-22a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v22a17,17,0,0,0,34,0v-22a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="AlborayaPerisArago" class="stationCircle" d="M1936.17,1101.5a14.5,14.5,0,0,1,0-29h22a14.5,14.5,0,0,1,0,29Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1958.17,1075a12,12,0,0,1,0,24h-22a12,12,0,0,1,0-24h22m0-5h-22a17,17,0,0,0,0,34h22a17,17,0,0,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="AlborayaPalmaret" class="stationCircle" d="M1936.28,1148.5a14.5,14.5,0,1,1,0-29h22a14.5,14.5,0,0,1,0,29Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1958.28,1122a12,12,0,0,1,0,24h-22a12,12,0,1,1,0-24h22m0-5h-22a17,17,0,1,0,0,34h22a17,17,0,0,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="PlatjaMalvarosa" class="stationCircle" d="M2557,1649.5a14.5,14.5,0,0,1,0-29h22a14.5,14.5,0,0,1,0,29Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2579,1623a12,12,0,0,1,0,24h-22a12,12,0,0,1,0-24h22m0-5h-22a17,17,0,0,0,0,34h22a17,17,0,0,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="PlatjaLesArenes" class="stationCircle" d="M2557,1742.5a14.5,14.5,0,0,1,0-29h22a14.5,14.5,0,0,1,0,29Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2579,1716a12,12,0,0,1,0,24h-22a12,12,0,0,1,0-24h22m0-5h-22a17,17,0,0,0,0,34h22a17,17,0,0,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Cabanyal" class="stationCircle" d="M2472.81,1674.5a14.5,14.5,0,1,1,0-29h22a14.5,14.5,0,0,1,0,29Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2494.81,1648a12,12,0,0,1,0,24h-22a12,12,0,1,1,0-24h22m0-5h-22a17,17,0,1,0,0,34h22a17,17,0,0,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="DrLluch" class="stationCircle" d="M2472.81,1750.5a14.5,14.5,0,1,1,0-29h22a14.5,14.5,0,0,1,0,29Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2494.81,1724a12,12,0,0,1,0,24h-22a12,12,0,1,1,0-24h22m0-5h-22a17,17,0,1,0,0,34h22a17,17,0,0,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Machado" class="stationCircle" d="M1780,1400.5a14.5,14.5,0,0,1,0-29h22a14.5,14.5,0,0,1,0,29Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1802,1374a12,12,0,0,1,0,24h-22a12,12,0,0,1,0-24h22m0-5h-22a17,17,0,0,0,0,34h22a17,17,0,0,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Facultats" class="stationCircle" d="M1823,1751.5a14.5,14.5,0,0,1,0-29h22a14.5,14.5,0,0,1,0,29Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1845,1725a12,12,0,0,1,0,24h-22a12,12,0,0,1,0-24h22m0-5h-22a17,17,0,0,0,0,34h22a17,17,0,0,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Ayora" class="stationCircle" d="M2160.26,1878.28a14.51,14.51,0,0,1-10.25-24.76l15.56-15.55a14.5,14.5,0,1,1,20.5,20.51L2170.52,1874A14.41,14.41,0,0,1,2160.26,1878.28Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2175.82,1836.22a12,12,0,0,1,8.49,20.49l-15.56,15.55a12,12,0,1,1-17-17l15.56-15.55a11.9,11.9,0,0,1,8.48-3.52m0-5a17,17,0,0,0-12,5l-15.56,15.56a17,17,0,0,0,24.05,24l15.55-15.56a17,17,0,0,0-12-29Z" transform="translate(-274.86 -70.86)"/></g>
+	</g>
+
+	<g id="Conexiones3">
+		<g><path id="AvenidaCid" class="stationCircle" d="M1260,2068.51a14.51,14.51,0,0,1-14.5-14.5v-41a14.5,14.5,0,0,1,29,0v41A14.52,14.52,0,0,1,1260,2068.51Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1260,2001a12,12,0,0,1,12,12v41a12,12,0,0,1-24,0v-41a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v41a17,17,0,0,0,34,0v-41a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="NouOctubre" class="stationCircle" d="M1151,2068.51a14.51,14.51,0,0,1-14.5-14.5v-41a14.5,14.5,0,0,1,29,0v41A14.52,14.52,0,0,1,1151,2068.51Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1151,2001a12,12,0,0,1,12,12v41a12,12,0,0,1-24,0v-41a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v41a17,17,0,0,0,34,0v-41a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Mislata" class="stationCircle" d="M1015,2067.51a14.52,14.52,0,0,1-14.5-14.5v-41a14.5,14.5,0,0,1,29,0v41A14.51,14.51,0,0,1,1015,2067.51Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1015,2000a12,12,0,0,1,12,12v41a12,12,0,0,1-24,0v-41a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v41a17,17,0,0,0,34,0v-41a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="MislataAlmassil" class="stationCircle" d="M948,2068.51a14.52,14.52,0,0,1-14.5-14.5v-41a14.5,14.5,0,0,1,29,0v41A14.51,14.51,0,0,1,948,2068.51Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M948,2001a12,12,0,0,1,12,12v41a12,12,0,0,1-24,0v-41a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v41a17,17,0,0,0,34,0v-41a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Faitanar" class="stationCircle" d="M882,2068.51a14.52,14.52,0,0,1-14.5-14.5v-41a14.5,14.5,0,0,1,29,0v41A14.51,14.51,0,0,1,882,2068.51Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M882,2001a12,12,0,0,1,12,12v41a12,12,0,0,1-24,0v-41a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v41a17,17,0,0,0,34,0v-41a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Xativa" class="stationCircle" d="M1583,2067.6a14.52,14.52,0,0,1-14.5-14.5v-41a14.5,14.5,0,0,1,29,0v41A14.52,14.52,0,0,1,1583,2067.6Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1583,2000.1a12,12,0,0,1,12,12v41a12,12,0,0,1-24,0v-41a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v41a17,17,0,0,0,34,0v-41a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Jesus" class="stationCircle" d="M1437.5,2269.5a14.5,14.5,0,0,1,0-29h41a14.5,14.5,0,0,1,0,29Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1478.5,2243a12,12,0,0,1,0,24h-41a12,12,0,0,1,0-24h41m0-5h-41a17,17,0,0,0,0,34h41a17,17,0,0,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Patraix" class="stationCircle" d="M1437.5,2314.5a14.5,14.5,0,0,1,0-29h41a14.5,14.5,0,0,1,0,29Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1478.5,2288a12,12,0,0,1,0,24h-41a12,12,0,0,1,0-24h41m0-5h-41a17,17,0,0,0,0,34h41a17,17,0,0,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Safranar" class="stationCircle" d="M1437.5,2359.5a14.5,14.5,0,0,1,0-29h41a14.5,14.5,0,0,1,0,29Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1478.5,2333a12,12,0,0,1,0,24h-41a12,12,0,0,1,0-24h41m0-5h-41a17,17,0,0,0,0,34h41a17,17,0,0,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="SantIsidre" class="stationCircle" d="M1437.5,2404.5a14.5,14.5,0,0,1,0-29h41a14.5,14.5,0,0,1,0,29Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1478.5,2378a12,12,0,0,1,0,24h-41a12,12,0,0,1,0-24h41m0-5h-41a17,17,0,0,0,0,34h41a17,17,0,0,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="ValenciaSud" class="stationCircle" d="M1437.5,2449.5a14.5,14.5,0,0,1,0-29h41a14.5,14.5,0,0,1,0,29Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1478.5,2423a12,12,0,0,1,0,24h-41a12,12,0,0,1,0-24h41m0-5h-41a17,17,0,0,0,0,34h41a17,17,0,0,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Paiporta" class="stationCircle" d="M1437.5,2516.5a14.5,14.5,0,0,1,0-29h41a14.5,14.5,0,0,1,0,29Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1478.5,2490a12,12,0,0,1,0,24h-41a12,12,0,0,1,0-24h41m0-5h-41a17,17,0,0,0,0,34h41a17,17,0,0,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Picanya" class="stationCircle" d="M1437.5,2561.5a14.5,14.5,0,0,1,0-29h41a14.5,14.5,0,0,1,0,29Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1478.5,2535a12,12,0,0,1,0,24h-41a12,12,0,0,1,0-24h41m0-5h-41a17,17,0,0,0,0,34h41a17,17,0,0,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Torrent" class="stationCircle" d="M1437.5,2606.5a14.5,14.5,0,0,1,0-29h41a14.5,14.5,0,0,1,0,29Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1478.5,2580a12,12,0,0,1,0,24h-41a12,12,0,0,1,0-24h41m0-5h-41a17,17,0,0,0,0,34h41a17,17,0,0,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="QuartPoblet" class="stationCircle" d="M792.5,2028a14.51,14.51,0,0,1-10.25-24.76l29-29a14.5,14.5,0,1,1,20.51,20.51l-29,29A14.41,14.41,0,0,1,792.5,2028Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M821.5,1972.5A12,12,0,0,1,830,1993l-29,29a12,12,0,0,1-17-17l29-29a11.92,11.92,0,0,1,8.49-3.52m0-5a17,17,0,0,0-12,5l-29,29a17,17,0,0,0,24,24l29-29a17,17,0,0,0-12-29Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="SaltAigua" class="stationCircle" d="M743.5,1979a14.51,14.51,0,0,1-10.25-24.76l29-29a14.5,14.5,0,1,1,20.51,20.51l-29,29A14.41,14.41,0,0,1,743.5,1979Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M772.5,1923.5A12,12,0,0,1,781,1944l-29,29a12,12,0,0,1-17-17l29-29a11.92,11.92,0,0,1,8.49-3.52m0-5a17,17,0,0,0-12,5l-29,29a17,17,0,0,0,24,24l29-29a17,17,0,0,0-12-29Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Manises" class="stationCircle" d="M695.14,1930.4a14.5,14.5,0,0,1-10.25-24.75l29-29a14.5,14.5,0,0,1,20.51,20.5l-29,29A14.41,14.41,0,0,1,695.14,1930.4Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M724.13,1874.91a12,12,0,0,1,8.49,20.48l-29,29a12,12,0,0,1-17-17l29-29a12,12,0,0,1,8.48-3.51m0-5a17,17,0,0,0-12,5l-29,29a17,17,0,1,0,24,24l29-29a17,17,0,0,0-12-29Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Roses" class="stationCircle" d="M646.46,1882.1a14.5,14.5,0,0,1-10.25-24.75l29-29a14.5,14.5,0,0,1,20.51,20.5l-29,29A14.42,14.42,0,0,1,646.46,1882.1Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M675.45,1826.61a12,12,0,0,1,8.49,20.49l-29,29a12,12,0,1,1-17-17l29-29a11.9,11.9,0,0,1,8.48-3.52m0-5a17,17,0,0,0-12,5l-29,29a17,17,0,1,0,24,24l29-29a17,17,0,0,0-12-29Z" transform="translate(-274.86 -70.86)"/></g>
+	</g>
+	<g id="ConexionesEsp">
+		<g><path id="Empalme" class="stationCircle" d="M1020.77,1339.5a14.45,14.45,0,0,1-12.31-6.83l-.74-1.17H992.07l-.74,1.17A14.45,14.45,0,0,1,979,1339.5H957a14.5,14.5,0,0,1,0-29h22a14.45,14.45,0,0,1,12.31,6.83l.74,1.17h15.65l.74-1.17a14.5,14.5,0,1,1,12.31,22.17Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1020.77,1313a12,12,0,1,1-10.2,18.34l-1.47-2.34H990.68l-1.47,2.34A12,12,0,0,1,979,1337H957a12,12,0,0,1,0-24h22a12,12,0,0,1,10.19,5.66l1.47,2.34h18.42l1.47-2.34a12,12,0,0,1,10.2-5.66m0-5a17,17,0,0,0-14.43,8H993.45a17,17,0,0,0-14.43-8H957a17,17,0,0,0,0,34h22a17,17,0,0,0,14.43-8h12.89a17,17,0,1,0,14.43-26Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Benimaclet" class="stationCircle" d="M1789,1610.09a14.51,14.51,0,0,1-14.5-14.5v-22a14.42,14.42,0,0,1,6.82-12.3l1.18-.73V1528.5h-4.16a14.5,14.5,0,0,1,0-29h22a14.5,14.5,0,1,1,0,29h-4.84v32.06l1.18.73a14.42,14.42,0,0,1,6.82,12.3v22A14.52,14.52,0,0,1,1789,1610.09Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1800.34,1502a12,12,0,1,1,0,24H1793v35.94l2.35,1.47a11.93,11.93,0,0,1,5.65,10.18v22a12,12,0,1,1-24,0v-22a11.93,11.93,0,0,1,5.65-10.18l2.35-1.47V1526h-6.66a12,12,0,0,1,0-24h22m0-5h-22a17,17,0,0,0,0,34H1780v28.17a17,17,0,0,0-8,14.42v22a17,17,0,1,0,34,0v-22a17,17,0,0,0-8-14.42V1531h2.34a17,17,0,1,0,0-34Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Colon" class="stationCircle" d="M1730,2001.13a14.42,14.42,0,0,1-10-4c-.15-.13-.22-.21-.31-.3l-33.94-33.94-.25-.25a14.5,14.5,0,0,1,10.5-24.5h0a14.42,14.42,0,0,1,10,4l.31.3,33.94,33.94c.08.08.17.16.25.25a14.5,14.5,0,0,1-10.5,24.5Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1696.09,1940.69h0a11.92,11.92,0,0,1,8.23,3.27l0,0,.06,0,.15.14,33.94,34,.14.14.06.06,0,.05a12,12,0,0,1-17,17l-.06,0,0,0-.15-.14-33.94-33.95-.15-.14,0-.06-.05,0a12,12,0,0,1,8.73-20.23m0-5a17,17,0,0,0-12.36,28.66c.11.13.22.24.34.36l33.94,33.94.36.35a17,17,0,0,0,24-24c-.11-.13-.22-.24-.34-.36l-34-33.94c-.12-.12-.23-.24-.36-.35a16.92,16.92,0,0,0-11.66-4.63Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Alameda" class="stationCircle" d="M1824,1907.13a14.42,14.42,0,0,1-10-4c-.15-.13-.22-.21-.31-.3l-33.94-33.94-.25-.25a14.5,14.5,0,0,1,10.5-24.5h0a14.42,14.42,0,0,1,10,4l.31.3,33.94,33.94c.08.08.17.16.25.25a14.5,14.5,0,0,1-10.5,24.5Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1790.09,1846.69h0a11.92,11.92,0,0,1,8.23,3.27l0,0,.06,0,.15.14,33.94,34,.14.14.06.06,0,.05a12,12,0,0,1-17,17l-.06,0,0,0-.15-.14-33.94-33.95-.15-.14,0-.06-.05,0a12,12,0,0,1,8.73-20.23m0-5a17,17,0,0,0-12.36,28.66c.11.13.22.24.34.36l33.94,33.94.36.35a17,17,0,0,0,24-24c-.11-.13-.22-.24-.34-.36l-34-33.94c-.12-.12-.23-.24-.36-.35a16.92,16.92,0,0,0-11.66-4.63Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="AngelGuimera" class="stationCircle" d="M1388.67,2028.1a14.37,14.37,0,0,1-10.25-4.25l-29-29a14.56,14.56,0,0,1-3.7-14.21l.4-1.4-8.29-8.3-3.18,3.18a14.5,14.5,0,0,1-20.51-20.5l15.56-15.56a14.49,14.49,0,0,1,20.5,0,14.52,14.52,0,0,1,0,20.5l-3.9,3.92,8.4,8.41,1.38-.35a14.54,14.54,0,0,1,13.85,3.79l29,29a14.51,14.51,0,0,1-10.25,24.76Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M1340,1936.32a12,12,0,0,1,8.47,20.49l-2.14,2.15-3.52,3.54,3.53,3.52,5.64,5.64,2,2,2.76-.7a12.41,12.41,0,0,1,3-.37,11.93,11.93,0,0,1,8.48,3.51l29,29a12,12,0,1,1-17,17l-29-29a12,12,0,0,1-3.06-11.76l.79-2.82-2.07-2.07-5.49-5.49-3.53-3.53-3.54,3.53-1.41,1.41a12,12,0,0,1-17-17l15.55-15.56a12,12,0,0,1,8.49-3.51m0-5a17,17,0,0,0-12,5l-15.55,15.56a17,17,0,1,0,24,24l1.41-1.41,5.49,5.49a17,17,0,0,0,4.34,16.65l29,29a17,17,0,0,0,24-24l-29-29a17,17,0,0,0-16.23-4.45l-5.64-5.64,2.14-2.15a17,17,0,0,0-12-29Z" transform="translate(-274.86 -70.86)"/></g>
+
+		<g><path id="Maritim" class="stationCircle" d="M2288,1914.5a14.51,14.51,0,0,1-14.5-14.5v-4.54h-23V1900a14.5,14.5,0,0,1-29,0v-22a14.5,14.5,0,0,1,29,0v4.46h23V1878a14.5,14.5,0,0,1,29,0v22A14.51,14.51,0,0,1,2288,1914.5Z" transform="translate(-274.86 -70.86)" style="fill:#fff"/><path d="M2288,1866a12,12,0,0,1,12,12v22a12,12,0,0,1-24,0v-7h-28v7a12,12,0,0,1-24,0v-22a12,12,0,0,1,24,0v7h28v-7a12,12,0,0,1,12-12m0-5a17,17,0,0,0-17,17v2h-18v-2a17,17,0,0,0-34,0v22a17,17,0,0,0,34,0v-2h18v2a17,17,0,0,0,34,0v-22a17,17,0,0,0-17-17Z" transform="translate(-274.86 -70.86)"/></g>
+	</g>
+</g>
+</svg>

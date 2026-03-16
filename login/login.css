@@ -1,0 +1,207 @@
+/* ==========================================
+   LOGIN.CSS - Estilos de la página de login
+   ========================================== */
+
+:root {
+    --color-primary: #41d9ff;
+    --color-secondary: #ffffff;
+    --color-dark: #333333;
+    --color-light-gray: #f5f5f5;
+    --color-error: #ff4444;
+    --color-success: #00ff00;
+    --font-family: 'Noto Sans', sans-serif;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/noto/NotoSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background: linear-gradient(135deg, var(--color-primary) 0%, #20b8d9 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-box {
+    background: var(--color-secondary);
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    padding: 40px 30px;
+    animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.logo-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.logo-section h1 {
+    color: var(--color-primary);
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.logo-section p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    color: var(--color-dark);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.form-group input {
+    padding: 12px 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(65, 217, 255, 0.1);
+}
+
+.form-group input::placeholder {
+    color: #999;
+}
+
+.error-message {
+    color: var(--color-error);
+    font-size: 13px;
+    min-height: 18px;
+    display: block;
+}
+
+.login-button {
+    padding: 12px 20px;
+    background: var(--color-primary);
+    color: var(--color-dark);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    font-family: var(--font-family);
+}
+
+.login-button:hover {
+    background: #20b8d9;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(65, 217, 255, 0.3);
+}
+
+.login-button:active {
+    transform: translateY(0);
+}
+
+.login-button .material-icons {
+    font-size: 20px;
+}
+
+.loading-spinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #e0e0e0;
+    border-top: 4px solid var(--color-primary);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-spinner p {
+    color: var(--color-primary);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Responsivo para móviles */
+@media (max-width: 480px) {
+    .login-box {
+        padding: 30px 20px;
+    }
+
+    .logo-section h1 {
+        font-size: 28px;
+    }
+
+    .login-button {
+        padding: 14px 16px;
+        font-size: 15px;
+    }
+}

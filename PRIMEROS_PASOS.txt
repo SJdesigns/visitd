@@ -1,0 +1,178 @@
+<!-- ============================================================================
+     PRIMEROS_PASOS.txt - Guía super simple de primeros pasos
+     ============================================================================ -->
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                         🚇 METROVISIT - PRIMEROS PASOS                    ║
+║                                                                            ║
+║              Aplicación para registrar visitas a estaciones de metro       ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+¡BIENVENIDO! Esta es la guía MÁS SIMPLE para empezar.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 QUÉ NECESITAS
+
+✅ Una cuenta en Supabase (gratis)
+✅ Un editor de texto
+✅ Un navegador web
+✅ 10 minutos de tiempo
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 PASO 1: SUPABASE (3 minutos)
+
+1. Ve a https://supabase.com
+2. Haz clic en "Sign In"
+3. Crea cuenta con Google, GitHub o correo
+4. Crea un proyecto nuevo
+5. Espera 2 minutos a que se cree
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔑 PASO 2: OBTENER CREDENCIALES (2 minutos)
+
+En Supabase:
+1. Haz clic en Settings (engranaje abajo a la izquierda)
+2. Haz clic en "API"
+3. Copia "Project URL" (ej: https://xxxxx.supabase.co)
+4. Copia "Project API Key" (la que dice "anon/public")
+5. ¡Guarda estos valores!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 PASO 3: CONFIGURAR CÓDIGO (2 minutos)
+
+Edita AMBOS archivos:
+- login/index.html
+- index.html
+
+Busca esta línea (en el <head>):
+    <!-- Script de Supabase - Reemplaza... -->
+
+Después, AÑADE esto (reemplaza con tus valores):
+
+    <script>
+        const supabaseUrl = 'https://tu-proyecto.supabase.co';
+        const supabaseKey = 'tu-clave-api-aqui';
+    </script>
+
+¡Guarda ambos archivos!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🗄️ PASO 4: BASE DE DATOS (2 minutos)
+
+En Supabase:
+1. Haz clic en "SQL Editor"
+2. Haz clic en "New Query"
+3. Copia TODO el contenido del archivo DATABASE_SETUP.sql
+4. Pégalo en el editor
+5. Haz clic en "Run"
+6. Espera a que termine (debe mostrar "Success")
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌐 PASO 5: EJECUTAR (1 minuto)
+
+Abre una terminal en la carpeta del proyecto y ejecuta:
+
+    python -m http.server 8000
+
+Si tienes Python 2:
+
+    python -m SimpleHTTPServer 8000
+
+O si tienes Node.js con http-server:
+
+    http-server
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔐 PASO 6: INICIAR SESIÓN
+
+1. Abre tu navegador
+2. Ve a http://localhost:8000/login/
+3. Usa estas credenciales:
+   - Usuario: testuser
+   - Contraseña: password123
+4. ¡Hecho!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ ¿FUNCIONÓ?
+
+Si ves la página de inicio con "Mis Sistemas de Metro", ¡FELICIDADES! 🎉
+
+Tu aplicación está funcionando correctamente.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️ ¿ALGO NO FUNCIONA?
+
+1. Abre las DevTools (F12)
+2. Ve a la consola
+3. Busca mensajes de error
+4. Lee el archivo OBTENER_CREDENCIALES.md para más ayuda
+
+Errores comunes:
+- "supabaseUrl is not defined" → No añadiste el script correctamente
+- "Unauthorized" → Credenciales incorrectas
+- "supabase not loaded" → La página no cargó completamente
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 DOCUMENTACIÓN
+
+Tenemos mucha más documentación disponible:
+
+📖 README.md - Documentación completa
+⏱️  INICIO_RAPIDO.md - Versión rápida
+🔑 OBTENER_CREDENCIALES.md - Detalles sobre credenciales
+📋 DOCUMENTACION_INDICE.md - Índice de todo
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 PRÓXIMOS PASOS
+
+Ahora puedes:
+
+1. 🗺️  Añadir tus propios mapas SVG en la carpeta /maps/
+2. 🖼️  Añadir logos en la carpeta /img/
+3. 👥 Crear más usuarios en Supabase
+4. 🚇 Añadir más sistemas de metro
+5. 🔧 Personalizar colores en css/main.css
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📞 ¿NECESITAS AYUDA?
+
+1. Abre DOCUMENTACION_INDICE.md para encontrar la documentación que necesitas
+2. Consulta el README.md para información detallada
+3. Usa la consola del navegador (F12) para debugging
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ CHECKLIST FINAL
+
+- [ ] Creé cuenta en Supabase
+- [ ] Creé un proyecto en Supabase
+- [ ] Obtuve credenciales (URL y API Key)
+- [ ] Configuré login/index.html
+- [ ] Configuré index.html
+- [ ] Ejecuté DATABASE_SETUP.sql
+- [ ] Inicié servidor local (python -m http.server 8000)
+- [ ] Accedí a http://localhost:8000/login/
+- [ ] Inicié sesión con testuser/password123
+- [ ] ¡La app funciona!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+¡DISFRUTA METROVISIT! 🚇
+
+Creado con ❤️ para los amantes del metro.
+
+═════════════════════════════════════════════════════════════════════════════
+Versión 1.0 | Diciembre 2025
+═════════════════════════════════════════════════════════════════════════════
