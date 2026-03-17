@@ -135,6 +135,30 @@ function initPageNavigation() {
             changePage('home');
         });
     }
+
+    // Botón del nav mobile para ir a la pagina home
+    const navbarMobileHomeBtn = document.getElementById('navItemHomeMobile');
+    if (navbarMobileHomeBtn) {
+        navbarMobileHomeBtn.addEventListener('click', () => {
+            changePage('home');
+        });
+    }
+
+    // Botón del nav mobile para ir a la pagina map
+    const navbarMobileSystemBtn = document.getElementById('navItemSystemMobile');
+    if (navbarMobileSystemBtn) {
+        navbarMobileSystemBtn.addEventListener('click', () => {
+            changePage('systems');
+        });
+    }
+
+    // Botón del nav mobile para ir a la pagina settings
+    const navbarMobileSettingsBtn = document.getElementById('navItemSettingsMobile');
+    if (navbarMobileSettingsBtn) {
+        navbarMobileSettingsBtn.addEventListener('click', () => {
+            changePage('settings');
+        });
+    }
 }
 
 // Se ejecuta cuando el DOM está listo

@@ -194,6 +194,66 @@ main.main-content {
     border-bottom-color: var(--color-primary);
 }
 
+/* ========== NAVEGACION MOBIL ========== */
+
+#headerMobile {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+    background-color: #2196f3;
+    z-index: 10;
+    display: none;
+}
+
+#headerLogoMobile {
+    width: 40px;
+    height: 40px;
+    margin-top: 4px;
+    margin-left: 20px;
+    margin-right: 12px;
+}
+
+.navItemMobile {
+    position: relative;
+    flex: 1;
+    height: 100%;
+    margin: 0px 6px;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navItemMobileFrame {
+    position: relative;
+    width: 100%;
+    height: 42px;
+    border-radius: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navItemMobileFrame:hover {
+    background-color: rgba(0,0,0,.08);
+}
+
+.navItemMobileFrame svg {
+    width: 34px;
+    height: 34px;
+    fill: #a2edff;
+}
+
+.navItemMobileActive .navItemMobileFrame {
+    background-color: rgba(0,0,0,.08);
+}
+
+.navItemMobile p {
+    color: #a2edff;
+}
+
 /* ========== PÁGINAS ========== */
 .page {
     display: none;
@@ -222,6 +282,26 @@ main.main-content {
     padding: var(--spacing-xl) var(--spacing-md);
 }
 
+.app-brand {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    display: none;
+    align-items: center;
+}
+
+.app-brand img {
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+}
+
+.app-brand p {
+    font-size: 24pt;
+    color: #2196f3;
+    font-weight: bold;
+}
+
 .page-header {
     display: flex;
     justify-content: space-between;
@@ -235,6 +315,14 @@ main.main-content {
     font-size: var(--font-size-xxl);
     font-family: var(--font-family-thin);
     color: var(--color-dark);
+}
+
+.page-title-normal {
+    display: block;
+}
+
+.page-title-small {
+    display: none;
 }
 
 /* ========== BOTONES ========== */
@@ -460,7 +548,7 @@ main.main-content {
 
 .systemCardLogo {
     position: relative;
-    width: 145px;
+    width: 130px;
     height: 100%;
     margin-left: 2px;
     margin-right: 12px;
@@ -846,6 +934,7 @@ body {
     padding: 15px 20px 15px 0px;
     gap: 20px;
     display: flex;
+    align-items: end;
     flex-direction: column;
 }
 
@@ -1181,9 +1270,12 @@ body {
         align-items: center;
     }
 
-    .page-header {
-        flex-direction: column;
-        align-items: flex-start;
+    .page-title-normal {
+        display: none;
+    }
+
+    .page-title-small {
+        display: block;
     }
 
     .systems-grid {
@@ -1204,15 +1296,37 @@ body {
     }
 }
 
+@media (max-width: 600px) {
+    #headerMobile {
+        display: flex;
+    }
+
+    .navbar {
+        display: none !important;
+    }
+
+    .main-content {
+        padding-bottom: 80px;
+    }
+
+    #map-right-panels {
+        display: none;
+    }
+
+    body {
+        background-color: #f4f4f4;
+    }
+
+    .app-brand {
+        display: flex;
+    }
+}
+
 @media (max-width: 480px) {
     :root {
         --spacing-md: 12px;
         --spacing-lg: 16px;
         --font-size-base: 14px;
-    }
-
-    .navbar-logo h1 {
-        font-size: var(--font-size-large);
     }
 
     .page-container {
@@ -1254,5 +1368,14 @@ body {
 
     .system-stats {
         grid-template-columns: 1fr;
+    }
+
+    .systemCardBottom {
+        padding: 0px 15px 12px 15px;
+    }
+
+    .systemCardLogo > img {
+        max-width: 82%;
+        max-height: 82%;
     }
 }
