@@ -38,16 +38,29 @@ function changePage(pageName) {
  * @param {string} pageName - Nombre de la página activa
  */
 function updateActiveNavLink(pageName) {
+    console.log('updateActiveNavLink');
     // Remover clase active de todos los enlaces
     const navLinks = document.querySelectorAll('.navbar-item');
     navLinks.forEach(link => {
         link.classList.remove('nav-active');
     });
 
+    const navMobileLinks = document.querySelectorAll('.navItemMobile');
+    navMobileLinks.forEach(link => {
+        link.classList.remove('navMobile-active');
+    });
+
     // Añadir clase active al enlace correspondiente
     const activeLink = document.querySelector('#navbar-'+pageName);
     if (activeLink) {
         activeLink.classList.add('nav-active');
+    }
+
+    const activeMobileLink = document.querySelector('#navItemMobile-'+pageName);
+    console.log('#navItemMobile-'+pageName);
+    console.log(activeMobileLink);
+    if (activeMobileLink) {
+        activeMobileLink.classList.add('navMobile-active');
     }
 }
 
@@ -137,7 +150,7 @@ function initPageNavigation() {
     }
 
     // Botón del nav mobile para ir a la pagina home
-    const navbarMobileHomeBtn = document.getElementById('navItemHomeMobile');
+    const navbarMobileHomeBtn = document.getElementById('navItemMobile-home');
     if (navbarMobileHomeBtn) {
         navbarMobileHomeBtn.addEventListener('click', () => {
             changePage('home');
@@ -145,7 +158,7 @@ function initPageNavigation() {
     }
 
     // Botón del nav mobile para ir a la pagina map
-    const navbarMobileSystemBtn = document.getElementById('navItemSystemMobile');
+    const navbarMobileSystemBtn = document.getElementById('navItemMobile-systems');
     if (navbarMobileSystemBtn) {
         navbarMobileSystemBtn.addEventListener('click', () => {
             changePage('systems');
@@ -153,7 +166,7 @@ function initPageNavigation() {
     }
 
     // Botón del nav mobile para ir a la pagina settings
-    const navbarMobileSettingsBtn = document.getElementById('navItemSettingsMobile');
+    const navbarMobileSettingsBtn = document.getElementById('navItemMobile-settings');
     if (navbarMobileSettingsBtn) {
         navbarMobileSettingsBtn.addEventListener('click', () => {
             changePage('settings');

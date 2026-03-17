@@ -197,7 +197,7 @@ main.main-content {
 /* ========== NAVEGACION MOBIL ========== */
 
 #headerMobile {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 80px;
     bottom: 0px;
@@ -243,7 +243,7 @@ main.main-content {
 .navItemMobileFrame svg {
     width: 34px;
     height: 34px;
-    fill: #a2edff;
+    fill: #b1f0ff;
 }
 
 .navItemMobileActive .navItemMobileFrame {
@@ -251,7 +251,11 @@ main.main-content {
 }
 
 .navItemMobile p {
-    color: #a2edff;
+    color: #b1f0ff;
+}
+
+.navMobile-active .navItemMobileFrame {
+    background-color: rgba(0,0,0,.08);
 }
 
 /* ========== PÁGINAS ========== */
@@ -291,8 +295,8 @@ main.main-content {
 }
 
 .app-brand img {
-    width: 36px;
-    height: 36px;
+    width: 35px;
+    height: 35px;
     margin-right: 10px;
 }
 
@@ -583,8 +587,7 @@ main.main-content {
 }
 
 .systemCardCountry > img {
-    height: 20px;
-    margin-top: 2px;
+    height: 18px;
     margin-right: 8px;
     border-radius: 4px;
 }
